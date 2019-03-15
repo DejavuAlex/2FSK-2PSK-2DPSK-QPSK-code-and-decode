@@ -1,0 +1,36 @@
+# do QPSK.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 22:21:54 on Feb 26,2019
+# vlog -work work QPSK.vo 
+# -- Compiling module QPSKcodedecode
+# 
+# Top level modules:
+# 	QPSKcodedecode
+# End time: 22:21:57 on Feb 26,2019, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 22:21:57 on Feb 26,2019
+# vlog -work work QPSKcodedecode.vwf.vt 
+# -- Compiling module QPSKcodedecode_vlg_vec_tst
+# 
+# Top level modules:
+# 	QPSKcodedecode_vlg_vec_tst
+# End time: 22:21:58 on Feb 26,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.QPSKcodedecode_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 22:21:58 on Feb 26,2019
+# Loading work.QPSKcodedecode_vlg_vec_tst
+# Loading work.QPSKcodedecode
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: (vsim-3017) QPSK.vo(298894): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /QPSKcodedecode_vlg_vec_tst/i1/\~QUARTUS_CREATED_ADC1~  File: nofile
+# ** Warning: (vsim-3722) QPSK.vo(298894): [TFMPC] - Missing connection for port 'clk_dft'.
+# ** Warning: Design size of 29454 statements exceeds ModelSim Altera Starter recommended capacity.
+# Expect performance to be adversely affected.
+# ** Note: $finish    : QPSKcodedecode.vwf.vt(75)
+#    Time: 1 us  Iteration: 0  Instance: /QPSKcodedecode_vlg_vec_tst
+# End time: 22:23:06 on Feb 26,2019, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 3

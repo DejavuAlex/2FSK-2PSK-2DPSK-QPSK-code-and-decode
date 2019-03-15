@@ -1,0 +1,55 @@
+# do DPSK.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:26:36 on Feb 25,2019
+# vlog -work work DPSK.vo 
+# -- Compiling module DPSK
+# 
+# Top level modules:
+# 	DPSK
+# End time: 19:26:36 on Feb 25,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:26:36 on Feb 25,2019
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module DPSK_vlg_vec_tst
+# 
+# Top level modules:
+# 	DPSK_vlg_vec_tst
+# End time: 19:26:37 on Feb 25,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L fiftyfivenm_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.DPSK_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 19:26:37 on Feb 25,2019
+# Loading work.DPSK_vlg_vec_tst
+# Loading work.DPSK
+# Loading altera_ver.dffeas
+# ** Warning: (vsim-3017) Waveform.vwf.vt(90): [TFMPC] - Too few port connections. Expected 49, found 44.
+#    Time: 0 ps  Iteration: 0  Instance: /DPSK_vlg_vec_tst/i1 File: DPSK.vo
+# ** Warning: (vsim-3722) Waveform.vwf.vt(90): [TFMPC] - Missing connection for port 'altera_reserved_tms'.
+# ** Warning: (vsim-3722) Waveform.vwf.vt(90): [TFMPC] - Missing connection for port 'altera_reserved_tck'.
+# ** Warning: (vsim-3722) Waveform.vwf.vt(90): [TFMPC] - Missing connection for port 'altera_reserved_tdi'.
+# ** Warning: (vsim-3722) Waveform.vwf.vt(90): [TFMPC] - Missing connection for port 'altera_reserved_tdo'.
+# ** Warning: (vsim-3722) Waveform.vwf.vt(90): [TFMPC] - Missing connection for port 'GSENSOR_INT'.
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: (vsim-3017) DPSK.vo(5922): [TFMPC] - Too few port connections. Expected 20, found 13.
+#    Time: 0 ps  Iteration: 0  Instance: /DPSK_vlg_vec_tst/i1/altera_internal_jtag File: nofile
+# ** Warning: (vsim-3722) DPSK.vo(5922): [TFMPC] - Missing connection for port 'tdoutap'.
+# ** Warning: (vsim-3722) DPSK.vo(5922): [TFMPC] - Missing connection for port 'tmscore'.
+# ** Warning: (vsim-3722) DPSK.vo(5922): [TFMPC] - Missing connection for port 'tckcore'.
+# ** Warning: (vsim-3722) DPSK.vo(5922): [TFMPC] - Missing connection for port 'tdicore'.
+# ** Warning: (vsim-3722) DPSK.vo(5922): [TFMPC] - Missing connection for port 'corectl'.
+# ** Warning: (vsim-3722) DPSK.vo(5922): [TFMPC] - Missing connection for port 'ntdopinena'.
+# ** Warning: (vsim-3722) DPSK.vo(5922): [TFMPC] - Missing connection for port 'tdocore'.
+# ** Warning: (vsim-3017) DPSK.vo(32255): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /DPSK_vlg_vec_tst/i1/\~QUARTUS_CREATED_ADC1~  File: nofile
+# ** Warning: (vsim-3722) DPSK.vo(32255): [TFMPC] - Missing connection for port 'clk_dft'.
+# ** Warning: (vsim-3017) DPSK.vo(32278): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /DPSK_vlg_vec_tst/i1/\~QUARTUS_CREATED_ADC2~  File: nofile
+# ** Warning: (vsim-3722) DPSK.vo(32278): [TFMPC] - Missing connection for port 'clk_dft'.
+# Warning : Input clock freq. is over VCO range. Fiftyfivenm PLL may lose lock
+# Time: 150000  Instance: DPSK_vlg_vec_tst.i1.\PLL|altpll_component|auto_generated|pll1 
+# ** Note: $finish    : Waveform.vwf.vt(139)
+#    Time: 1 us  Iteration: 0  Instance: /DPSK_vlg_vec_tst
+# End time: 19:26:37 on Feb 25,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 18

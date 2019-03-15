@@ -1,0 +1,177 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sine[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sine[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sine[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sine[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sine[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sine[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sine[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sine[7]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[3]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[4]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[5]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[6]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[7]",
+					"strict" : false
+				},
+				{
+					"name" : "seq",
+					"strict" : false
+				},
+				{
+					"name" : "tz_seq[0]",
+					"strict" : false
+				},
+				{
+					"name" : "tz_seq[1]",
+					"strict" : false
+				},
+				{
+					"name" : "tz_seq[2]",
+					"strict" : false
+				},
+				{
+					"name" : "tz_seq[3]",
+					"strict" : false
+				},
+				{
+					"name" : "tz_seq[4]",
+					"strict" : false
+				},
+				{
+					"name" : "tz_seq[5]",
+					"strict" : false
+				},
+				{
+					"name" : "tz_seq[6]",
+					"strict" : false
+				},
+				{
+					"name" : "tz_seq[7]",
+					"strict" : false
+				},
+				{
+					"name" : "jt_seq",
+					"strict" : false
+				},
+				{
+					"name" : "phase[0]",
+					"strict" : false
+				},
+				{
+					"name" : "phase[1]",
+					"strict" : false
+				},
+				{
+					"name" : "phase[2]",
+					"strict" : false
+				},
+				{
+					"name" : "phase[3]",
+					"strict" : false
+				},
+				{
+					"name" : "phase[4]",
+					"strict" : false
+				},
+				{
+					"name" : "phase[5]",
+					"strict" : false
+				},
+				{
+					"name" : "phase[6]",
+					"strict" : false
+				},
+				{
+					"name" : "phase[7]",
+					"strict" : false
+				},
+				{
+					"name" : "phase[8]",
+					"strict" : false
+				},
+				{
+					"name" : "phase[9]",
+					"strict" : false
+				},
+				{
+					"name" : "MAX10_CLK1_50",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[0]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

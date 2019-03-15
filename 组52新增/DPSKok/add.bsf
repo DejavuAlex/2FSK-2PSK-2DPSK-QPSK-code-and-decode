@@ -1,0 +1,61 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 0 0 160 96)
+	(text "add" (rect 68 0 106 18)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 78 41 92)(font "Arial" ))
+	(port
+		(pt 0 40)
+		(input)
+		(text "dataa[9..0]" (rect 0 0 103 16)(font "Arial" (font_size 8)))
+		(text "dataa[9..0]" (rect 4 24 64 39)(font "Arial" (font_size 8)))
+		(line (pt 0 40)(pt 64 40)(line_width 3))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "datab[9..0]" (rect 0 0 103 16)(font "Arial" (font_size 8)))
+		(text "datab[9..0]" (rect 4 56 64 71)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 64 72)(line_width 3))
+	)
+	(port
+		(pt 160 56)
+		(output)
+		(text "result[9..0]" (rect 0 0 113 16)(font "Arial" (font_size 8)))
+		(text "result[9..0]" (rect 95 40 155 55)(font "Arial" (font_size 8)))
+		(line (pt 160 56)(pt 96 56)(line_width 3))
+	)
+	(drawing
+		(text "A+B" (rect 70 49 164 113)(font "Arial" (font_size 8)))
+		(text "A" (rect 63 33 134 81)(font "Arial" (font_size 8)))
+		(text "B" (rect 63 65 133 145)(font "Arial" (font_size 8)))
+		(line (pt 64 32)(pt 64 80))
+		(line (pt 64 32)(pt 96 40))
+		(line (pt 64 80)(pt 96 72))
+		(line (pt 96 40)(pt 96 72))
+		(line (pt 0 0)(pt 162 0))
+		(line (pt 162 0)(pt 162 98))
+		(line (pt 0 98)(pt 162 98))
+		(line (pt 0 0)(pt 0 98))
+	)
+)

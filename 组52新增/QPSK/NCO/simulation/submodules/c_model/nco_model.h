@@ -1,0 +1,20 @@
+
+void Sncomodel(double *fsin_o,
+			   double *fcos_o,
+			   double *phi_inc_i,
+			   double *phase_mod_i,
+			   double *freq_mod_i, 
+			   double wantFmod,
+			   double wantPmod,
+			   int numch,
+			   double numba,
+			   double apr,
+			   double mpr,
+			   double apri,
+			   double aprp,
+			   double aprf,
+			   double dpri,
+			   double arch,
+			   double dual,
+			   int simLength
+			 );

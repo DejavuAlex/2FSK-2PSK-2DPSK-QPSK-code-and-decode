@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Communication/Quartus/Work/QPSK/simulation/modelsim
+vQPSKcodedecode
+!s110 1551190863
+!i10b 1
+!s100 m>::[8hF2S;lWGKCXoPmW3
+Ia`>k]^@Jl>goc`XjH;i?f2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1550993017
+8QPSK.vo
+FQPSK.vo
+L0 32
+Z2 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1551190860.000000
+!s107 QPSK.vo|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+.|QPSK.vo|
+!i113 1
+Z3 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+n@q@p@s@kcodedecode
+vQPSKcodedecode_vlg_tst
+!s110 1551190864
+!i10b 1
+!s100 8]U<fPNFCFL]V=Qeb4M180
+Iag2h0l[o=`DeMK@LKYfNc0
+R1
+R0
+w1550988117
+8E:/Communication/Quartus/Work/QPSK/simulation/modelsim/QPSKcodedecode.vt
+FE:/Communication/Quartus/Work/QPSK/simulation/modelsim/QPSKcodedecode.vt
+L0 29
+R2
+r1
+!s85 0
+31
+!s108 1551190864.000000
+!s107 E:/Communication/Quartus/Work/QPSK/simulation/modelsim/QPSKcodedecode.vt|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/QPSK/simulation/modelsim|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/QPSKcodedecode.vt|
+!i113 1
+R3
+!s92 -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/QPSK/simulation/modelsim
+n@q@p@s@kcodedecode_vlg_tst

@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Communication/Quartus/Work/QPSK/simulation/modelsim
+vNCO
+!s110 1550997207
+!i10b 1
+!s100 TiYbSB4b?Enh^RZ>b7lJL2
+I8K9R>@^:BCAiVzl^BC49>3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z2 w1550991418
+Z3 8E:/Communication/Quartus/Work/QPSK/NCO/synthesis/NCO.v
+Z4 FE:/Communication/Quartus/Work/QPSK/NCO/synthesis/NCO.v
+L0 6
+Z5 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1550997207.000000
+Z6 !s107 E:/Communication/Quartus/Work/QPSK/NCO/synthesis/NCO.v|
+Z7 !s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|NCO|+incdir+E:/Communication/Quartus/Work/QPSK/NCO/synthesis|E:/Communication/Quartus/Work/QPSK/NCO/synthesis/NCO.v|
+!i113 1
+Z8 o-vlog01compat -work NCO
+Z9 !s92 -vlog01compat -work NCO +incdir+E:/Communication/Quartus/Work/QPSK/NCO/synthesis
+n@n@c@o
+vnco
+Z10 !s110 1551020968
+!i10b 1
+!s100 lF<U>AG3DcXK29UHGCPlF0
+IcAM]E9QOBFWbhGBaL<g1M2
+R1
+R0
+Z11 w1551020328
+R3
+R4
+L0 6
+R5
+r1
+!s85 0
+31
+Z12 !s108 1551020968.000000
+R6
+R7
+!i113 1
+R8
+R9
+vnco_nco_ii_0
+R10
+!i10b 1
+!s100 E2mO`LE7dlMfUD_kcXZC^2
+I[ROQC_>3XSM[J3k>7@U6M0
+R1
+R0
+R11
+Z13 8E:/Communication/Quartus/Work/QPSK/NCO/synthesis/submodules/NCO_nco_ii_0.v
+Z14 FE:/Communication/Quartus/Work/QPSK/NCO/synthesis/submodules/NCO_nco_ii_0.v
+Z15 L0 23
+R5
+r1
+!s85 0
+31
+R12
+!s107 E:/Communication/Quartus/Work/QPSK/NCO/synthesis/submodules/NCO_nco_ii_0.v|
+Z16 !s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|NCO|+incdir+E:/Communication/Quartus/Work/QPSK/NCO/synthesis/submodules|E:/Communication/Quartus/Work/QPSK/NCO/synthesis/submodules/NCO_nco_ii_0.v|
+!i113 1
+R8
+Z17 !s92 -vlog01compat -work NCO +incdir+E:/Communication/Quartus/Work/QPSK/NCO/synthesis/submodules
+vNCO_nco_ii_0
+!s110 1550997209
+!i10b 1
+!s100 DaS;YT<J:<VNE4^8YDCYU0
+I4JkiiXPEbQ?zYdW2IJWZj1
+R1
+R0
+R2
+R13
+R14
+R15
+R5
+r1
+!s85 0
+31
+!s108 1550997208.000000
+!s107 E:/Communication/Quartus/Work/QPSK/NCO/synthesis/submodules/NCO_nco_ii_0.v|
+R16
+!i113 1
+R8
+R17
+n@n@c@o_nco_ii_0

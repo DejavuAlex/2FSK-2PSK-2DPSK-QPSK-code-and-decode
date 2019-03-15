@@ -1,0 +1,96 @@
+Restore Archived Project report for FSK
+Sat Mar 02 10:40:21 2019
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Sat Mar 02 10:40:21 2019 ;
+; Revision Name                   ; FSK                                   ;
+; Top-level Entity Name           ; FSK2                                  ;
+; Family                          ; MAX 10                                ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'E:/Communication/Quartus/Work/FSK_tmp_archive.qar' into the 'E:/Communication/Quartus/Work_copy/' directory
+Info: Generated report 'FSK.restore.rpt'
+
+
++-----------------------------+
+; Files Restored              ;
++-----------------------------+
+; File Name                   ;
++-----------------------------+
+; qar_info.json               ;
+; Block3.bdf                  ;
+; DATAROM.bsf                 ;
+; DATAROM.qip                 ;
+; DATAROM.v                   ;
+; DATAROM_bb.v                ;
+; DATAROM_inst.v              ;
+; FSK.qpf                     ;
+; FSK.qsf                     ;
+; FSK2.v                      ;
+; Verilog2.v                  ;
+; Waveform.vwf                ;
+; Waveform1.vwf               ;
+; counter.bsf                 ;
+; counter.qip                 ;
+; counter.v                   ;
+; counter_bb.v                ;
+; counter_inst.v              ;
+; db/stp3_auto_stripped.stp   ;
+; fenpin.v                    ;
+; fenpin1.v                   ;
+; fenpin2.v                   ;
+; kaiguan.v                   ;
+; mxl.v                       ;
+; output_files/stp3.stp       ;
+; simulation/modelsim/FSK2.vt ;
+; sin256.mif                  ;
+; assignment_defaults.qdf     ;
++-----------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

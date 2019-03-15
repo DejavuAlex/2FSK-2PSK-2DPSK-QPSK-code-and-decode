@@ -1,0 +1,82 @@
+--altmult_accum ACCUM_DIRECTION="ADD" ADDNSUB_ACLR="ACLR3" ADDNSUB_PIPELINE_ACLR="ACLR3" ADDNSUB_PIPELINE_REG="CLOCK0" ADDNSUB_REG="CLOCK0" CBX_DECLARE_ALL_CONNECTED_PORTS="OFF" DEDICATED_MULTIPLIER_CIRCUITRY="AUTO" DEVICE_FAMILY="MAX 10" DSP_BLOCK_BALANCING="Auto" INPUT_ACLR_A="ACLR3" INPUT_ACLR_B="ACLR3" INPUT_REG_A="CLOCK0" INPUT_REG_B="CLOCK0" INPUT_SOURCE_A="DATAA" INPUT_SOURCE_B="DATAB" MULTIPLIER_ACLR="ACLR3" MULTIPLIER_REG="CLOCK0" OUTPUT_ACLR="ACLR3" OUTPUT_REG="CLOCK0" PORT_ADDNSUB="PORT_UNUSED" PORT_SIGNA="PORT_UNUSED" PORT_SIGNB="PORT_UNUSED" REPRESENTATION_A="SIGNED" REPRESENTATION_B="SIGNED" SIGN_ACLR_A="ACLR3" SIGN_ACLR_B="ACLR3" SIGN_PIPELINE_ACLR_A="ACLR3" SIGN_PIPELINE_ACLR_B="ACLR3" SIGN_PIPELINE_REG_A="CLOCK0" SIGN_PIPELINE_REG_B="CLOCK0" SIGN_REG_A="CLOCK0" SIGN_REG_B="CLOCK0" WIDTH_A=8 WIDTH_B=8 WIDTH_RESULT=32 aclr3 clock0 coefsel0 coefsel1 coefsel2 coefsel3 dataa datab datac result CARRY_CHAIN="MANUAL" CARRY_CHAIN_LENGTH=48
+--VERSION_BEGIN 16.0 cbx_alt_ded_mult_y 2016:04:27:18:05:34:SJ cbx_alt_zaccum 2016:04:27:18:05:34:SJ cbx_altaccumulate 2016:04:27:18:05:34:SJ cbx_altera_mult_add 2016:04:27:18:05:34:SJ cbx_altera_mult_add_rtl 2016:04:27:18:05:34:SJ cbx_altmult_accum 2016:04:27:18:05:34:SJ cbx_altmult_add 2016:04:27:18:05:34:SJ cbx_cycloneii 2016:04:27:18:05:34:SJ cbx_lpm_add_sub 2016:04:27:18:05:34:SJ cbx_lpm_mult 2016:04:27:18:05:34:SJ cbx_mgl 2016:04:27:18:06:48:SJ cbx_nadder 2016:04:27:18:05:34:SJ cbx_padd 2016:04:27:18:05:34:SJ cbx_parallel_add 2016:04:27:18:05:34:SJ cbx_stratix 2016:04:27:18:05:34:SJ cbx_stratixii 2016:04:27:18:05:34:SJ cbx_util_mgl 2016:04:27:18:05:34:SJ  VERSION_END
+
+
+-- Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+--  Your use of Altera Corporation's design tools, logic functions 
+--  and other software and tools, and its AMPP partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Altera Program License 
+--  Subscription Agreement, the Altera Quartus Prime License Agreement,
+--  the Altera MegaCore Function License Agreement, or other 
+--  applicable license agreement, including, without limitation, 
+--  that your use is for the sole purpose of programming logic 
+--  devices manufactured by Altera and sold by Altera or its 
+--  authorized distributors.  Please refer to the applicable 
+--  agreement for further details.
+
+
+FUNCTION ded_mult_ph71 (aclr[3..0], clock[3..0], dataa[7..0], datab[7..0], ena[3..0])
+RETURNS ( result[15..0]);
+FUNCTION zaccum_hhj (aclr, clken, clock, data[15..0])
+RETURNS ( result[31..0]);
+
+--synthesis_resources = dsp_9bit 1 lut 32 reg 32 
+SUBDESIGN mult_accum_3en2
+( 
+	aclr3	:	input;
+	clock0	:	input;
+	coefsel0[2..0]	:	input;
+	coefsel1[2..0]	:	input;
+	coefsel2[2..0]	:	input;
+	coefsel3[2..0]	:	input;
+	dataa[7..0]	:	input;
+	datab[7..0]	:	input;
+	datac[21..0]	:	input;
+	result[31..0]	:	output;
+) 
+VARIABLE 
+	ded_mult1 : ded_mult_ph71;
+	zaccum2 : zaccum_hhj;
+	aclr0	: NODE;
+	aclr1	: NODE;
+	aclr2	: NODE;
+	aclr_wire[3..0]	: WIRE;
+	clock1	: NODE;
+	clock2	: NODE;
+	clock3	: NODE;
+	clock_wire[3..0]	: WIRE;
+	ena0	: NODE;
+	ena1	: NODE;
+	ena2	: NODE;
+	ena3	: NODE;
+	ena_wire[3..0]	: WIRE;
+
+BEGIN 
+	ded_mult1.aclr[] = ( aclr_wire[3..3], B"000");
+	ded_mult1.clock[] = ( B"111", clock_wire[0..0]);
+	ded_mult1.dataa[] = dataa[];
+	ded_mult1.datab[] = datab[];
+	ded_mult1.ena[] = ( B"111", ena_wire[0..0]);
+	zaccum2.aclr = aclr_wire[3..3];
+	zaccum2.clken = ena_wire[0..0];
+	zaccum2.clock = clock_wire[0..0];
+	zaccum2.data[] = ded_mult1.result[];
+	aclr0 = GND;
+	aclr1 = GND;
+	aclr2 = GND;
+	aclr_wire[] = ( aclr3, aclr2, aclr1, aclr0);
+	clock1 = VCC;
+	clock2 = VCC;
+	clock3 = VCC;
+	clock_wire[] = ( clock3, clock2, clock1, clock0);
+	ena0 = VCC;
+	ena1 = VCC;
+	ena2 = VCC;
+	ena3 = VCC;
+	ena_wire[] = ( ena3, ena2, ena1, ena0);
+	result[] = zaccum2.result[];
+END;
+--VALID FILE

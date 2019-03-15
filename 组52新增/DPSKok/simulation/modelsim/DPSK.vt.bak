@@ -1,0 +1,159 @@
+// Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "02/25/2019 14:24:49"
+                                                                                
+// Verilog Test Bench template for design : DPSK
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ps/ 1 ps
+module DPSK_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+reg ADC_CLK_10;
+reg [15:0] treg_ARDUINO_IO;
+reg treg_ARDUINO_RESET_N;
+reg [15:0] treg_DRAM_DQ;
+reg [2:1] GSENSOR_INT;
+reg treg_GSENSOR_SDI;
+reg treg_GSENSOR_SDO;
+reg [1:0] KEY;
+reg MAX10_CLK1_50;
+reg MAX10_CLK2_50;
+reg [9:0] SW;
+// wires                                               
+wire [15:0]  ARDUINO_IO;
+wire ARDUINO_RESET_N;
+wire [12:0]  DRAM_ADDR;
+wire [1:0]  DRAM_BA;
+wire DRAM_CAS_N;
+wire DRAM_CKE;
+wire DRAM_CLK;
+wire DRAM_CS_N;
+wire [15:0]  DRAM_DQ;
+wire DRAM_LDQM;
+wire DRAM_RAS_N;
+wire DRAM_UDQM;
+wire DRAM_WE_N;
+wire GSENSOR_CS_N;
+wire GSENSOR_SCLK;
+wire GSENSOR_SDI;
+wire GSENSOR_SDO;
+wire [7:0]  HEX0;
+wire [7:0]  HEX1;
+wire [7:0]  HEX2;
+wire [7:0]  HEX3;
+wire [7:0]  HEX4;
+wire [7:0]  HEX5;
+wire [9:0]  LEDR;
+wire [3:0]  VGA_B;
+wire [3:0]  VGA_G;
+wire VGA_HS;
+wire [3:0]  VGA_R;
+wire VGA_VS;
+wire clk_1;
+wire clk_2;
+wire clk_4;
+wire clk_20;
+wire [7:0]  cos;
+wire jt_seq;
+wire [9:0]  phase;
+wire seq;
+wire [7:0]  sine;
+wire [7:0]  tz_seq;
+
+// assign statements (if any)                          
+assign ARDUINO_IO = treg_ARDUINO_IO;
+assign ARDUINO_RESET_N = treg_ARDUINO_RESET_N;
+assign DRAM_DQ = treg_DRAM_DQ;
+assign GSENSOR_SDI = treg_GSENSOR_SDI;
+assign GSENSOR_SDO = treg_GSENSOR_SDO;
+DPSK i1 (
+// port map - connection between master ports and signals/registers   
+	.ADC_CLK_10(ADC_CLK_10),
+	.ARDUINO_IO(ARDUINO_IO),
+	.ARDUINO_RESET_N(ARDUINO_RESET_N),
+	.DRAM_ADDR(DRAM_ADDR),
+	.DRAM_BA(DRAM_BA),
+	.DRAM_CAS_N(DRAM_CAS_N),
+	.DRAM_CKE(DRAM_CKE),
+	.DRAM_CLK(DRAM_CLK),
+	.DRAM_CS_N(DRAM_CS_N),
+	.DRAM_DQ(DRAM_DQ),
+	.DRAM_LDQM(DRAM_LDQM),
+	.DRAM_RAS_N(DRAM_RAS_N),
+	.DRAM_UDQM(DRAM_UDQM),
+	.DRAM_WE_N(DRAM_WE_N),
+	.GSENSOR_CS_N(GSENSOR_CS_N),
+	.GSENSOR_INT(GSENSOR_INT),
+	.GSENSOR_SCLK(GSENSOR_SCLK),
+	.GSENSOR_SDI(GSENSOR_SDI),
+	.GSENSOR_SDO(GSENSOR_SDO),
+	.HEX0(HEX0),
+	.HEX1(HEX1),
+	.HEX2(HEX2),
+	.HEX3(HEX3),
+	.HEX4(HEX4),
+	.HEX5(HEX5),
+	.KEY(KEY),
+	.LEDR(LEDR),
+	.MAX10_CLK1_50(MAX10_CLK1_50),
+	.MAX10_CLK2_50(MAX10_CLK2_50),
+	.SW(SW),
+	.VGA_B(VGA_B),
+	.VGA_G(VGA_G),
+	.VGA_HS(VGA_HS),
+	.VGA_R(VGA_R),
+	.VGA_VS(VGA_VS),
+	.clk_1(clk_1),
+	.clk_2(clk_2),
+	.clk_4(clk_4),
+	.clk_20(clk_20),
+	.cos(cos),
+	.jt_seq(jt_seq),
+	.phase(phase),
+	.seq(seq),
+	.sine(sine),
+	.tz_seq(tz_seq)
+);
+initial                                                
+begin                                                  
+// code that executes only once                        
+// insert code here --> begin                          
+                                                       
+// --> end                                             
+$display("Running testbench");                       
+end                                                    
+always                                                 
+// optional sensitivity list                           
+// @(event1 or event2 or .... eventn)                  
+begin                                                  
+// code executes for every event on sensitivity list   
+// insert code here --> begin                          
+                                                       
+@eachvec;                                              
+// --> end                                             
+end                                                    
+endmodule
+

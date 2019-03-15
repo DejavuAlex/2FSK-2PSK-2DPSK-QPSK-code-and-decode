@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at qpsk_tz.v(33): always construct contains both blocking and non-blocking assignments

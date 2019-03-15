@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Mar 01 18:58:23 2019
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Revision Name : DPSK
+Top-level Entity Name : DPSK
+Family : MAX 10
+Total logic elements : 990
+    Total combinational functions : 584
+    Dedicated logic registers : 766
+Total registers : 766
+Total pins : 189
+Total virtual pins : 0
+Total memory bits : 43,008
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

@@ -1,0 +1,18 @@
+Fitter Status : Successful - Fri Mar 01 19:35:56 2019
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Revision Name : QPSK
+Top-level Entity Name : QPSKcodedecode
+Family : MAX 10
+Device : 10M50DAF484I7G
+Timing Models : Final
+Total logic elements : 305 / 49,760 ( < 1 % )
+    Total combinational functions : 268 / 49,760 ( < 1 % )
+    Dedicated logic registers : 285 / 49,760 ( < 1 % )
+Total registers : 285
+Total pins : 95 / 360 ( 26 % )
+Total virtual pins : 0
+Total memory bits : 294,912 / 1,677,312 ( 18 % )
+Embedded Multiplier 9-bit elements : 4 / 288 ( 1 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

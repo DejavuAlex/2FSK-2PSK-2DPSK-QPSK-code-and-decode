@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Communication/Quartus/Work/DPSK/simulation/qsim
+vDPSK
+!s110 1551093996
+!i10b 1
+!s100 a^2oXg^3>WEO::S13KYlG2
+IP4T7d:jY?nFbz5kJkKgaU3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1551093994
+8DPSK.vo
+FDPSK.vo
+L0 32
+Z2 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z3 !s108 1551093996.000000
+!s107 DPSK.vo|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-work|work|DPSK.vo|
+!i113 1
+Z4 o-work work
+n@d@p@s@k
+vDPSK_vlg_vec_tst
+!s110 1551093997
+!i10b 1
+!s100 n0=OYHE`4Pf@<1Rz<@?[I1
+I3U92aAkXUa`QT1IV=P17@0
+R1
+R0
+w1551093992
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R2
+r1
+!s85 0
+31
+R3
+!s107 Waveform.vwf.vt|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-work|work|Waveform.vwf.vt|
+!i113 1
+R4
+n@d@p@s@k_vlg_vec_tst

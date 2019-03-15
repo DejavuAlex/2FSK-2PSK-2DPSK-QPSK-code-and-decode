@@ -1,0 +1,78 @@
+--alt_ded_mult_y CBX_DECLARE_ALL_CONNECTED_PORTS="OFF" dedicated_multiplier_circuitry="AUTO" device_family="MAX 10" dsp_block_balancing="Auto" input_aclr_a="ACLR3" input_aclr_b="ACLR3" input_reg_a="CLOCK0" input_reg_b="CLOCK0" level=0 output_aclr="ACLR3" output_reg="CLOCK0" pipeline=0 representation_a="SIGNED" representation_b="SIGNED" sub_dedicated_multiplier_circuitry="YES" width_a=8 width_b=8 aclr clock dataa datab ena result
+--VERSION_BEGIN 16.0 cbx_alt_ded_mult_y 2016:04:27:18:05:34:SJ cbx_cycloneii 2016:04:27:18:05:34:SJ cbx_lpm_add_sub 2016:04:27:18:05:34:SJ cbx_mgl 2016:04:27:18:06:48:SJ cbx_nadder 2016:04:27:18:05:34:SJ cbx_padd 2016:04:27:18:05:34:SJ cbx_parallel_add 2016:04:27:18:05:34:SJ cbx_stratix 2016:04:27:18:05:34:SJ cbx_stratixii 2016:04:27:18:05:34:SJ cbx_util_mgl 2016:04:27:18:05:34:SJ  VERSION_END
+
+
+-- Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+--  Your use of Altera Corporation's design tools, logic functions 
+--  and other software and tools, and its AMPP partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Altera Program License 
+--  Subscription Agreement, the Altera Quartus Prime License Agreement,
+--  the Altera MegaCore Function License Agreement, or other 
+--  applicable license agreement, including, without limitation, 
+--  that your use is for the sole purpose of programming logic 
+--  devices manufactured by Altera and sold by Altera or its 
+--  authorized distributors.  Please refer to the applicable 
+--  agreement for further details.
+
+
+FUNCTION fiftyfivenm_mac_mult (aclr, clk, dataa[dataa_width-1..0], datab[datab_width-1..0], ena, signa, signb)
+WITH ( dataa_clock, dataa_width, datab_clock, datab_width, signa_clock, signb_clock)
+RETURNS ( dataout[dataa_width+datab_width-1..0]);
+FUNCTION fiftyfivenm_mac_out (aclr, clk, dataa[dataa_width-1..0], ena)
+WITH ( dataa_width = 0, output_clock)
+RETURNS ( dataout[dataa_width-1..0]);
+FUNCTION dffpipe_b3c (d[15..0])
+RETURNS ( q[15..0]);
+
+--synthesis_resources = dsp_9bit 1 
+SUBDESIGN ded_mult_ph71
+( 
+	aclr[3..0]	:	input;
+	clock[3..0]	:	input;
+	dataa[7..0]	:	input;
+	datab[7..0]	:	input;
+	ena[3..0]	:	input;
+	result[15..0]	:	output;
+) 
+VARIABLE 
+	mac_mult3 : fiftyfivenm_mac_mult
+		WITH (
+			dataa_clock = "0",
+			dataa_width = 8,
+			datab_clock = "0",
+			datab_width = 8
+		);
+	mac_out4 : fiftyfivenm_mac_out
+		WITH (
+			dataa_width = 16,
+			output_clock = "0"
+		);
+	pre_result : dffpipe_b3c;
+	x_dataa[7..0]	: WIRE;
+	x_datab[7..0]	: WIRE;
+	x_signa[0..0]	: WIRE;
+	x_signb[0..0]	: WIRE;
+
+BEGIN 
+	mac_mult3.aclr = aclr[3..3];
+	mac_mult3.clk = clock[0..0];
+	mac_mult3.dataa[] = ( x_dataa[]);
+	mac_mult3.datab[] = ( x_datab[]);
+	mac_mult3.ena = ena[0..0];
+	mac_mult3.signa = x_signa[];
+	mac_mult3.signb = x_signb[];
+	mac_out4.aclr = aclr[3..3];
+	mac_out4.clk = clock[0..0];
+	mac_out4.dataa[] = ( mac_mult3.dataout[15..0]);
+	mac_out4.ena = ena[0..0];
+	pre_result.d[15..0] = mac_out4.dataout[15..0];
+	result[] = pre_result.q[];
+	x_dataa[] = dataa[];
+	x_datab[] = datab[];
+	x_signa[] = B"1";
+	x_signb[] = B"1";
+END;
+--VALID FILE

@@ -1,0 +1,16 @@
+Partition Merge Status : Successful - Thu Feb 28 18:48:04 2019
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Revision Name : bpsk
+Top-level Entity Name : bpsk
+Family : MAX 10
+Total logic elements : 807
+    Total combinational functions : 602
+    Dedicated logic registers : 539
+Total registers : 539
+Total pins : 30
+Total virtual pins : 0
+Total memory bits : 16,384
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

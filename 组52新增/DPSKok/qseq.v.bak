@@ -1,0 +1,13 @@
+module qseq(
+input clk,
+output seq
+)
+reg [7:0]seq1=10110101
+always@(posedge clk)
+begin
+    seq<=seq1[0];
+	 seq1<=(seq1[7:1,seq1[0]);
+	 
+end
+endmodule
+

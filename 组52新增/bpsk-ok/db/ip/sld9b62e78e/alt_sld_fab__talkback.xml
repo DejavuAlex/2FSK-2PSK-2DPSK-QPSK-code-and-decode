@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProgramExecution>
+ <SOPCSystem>
+  <CompileID>0</CompileID>
+  <DeviceFamily>UNKNOWN</DeviceFamily>
+  <HDLLanguage></HDLLanguage>
+  <Qsys>0</Qsys>
+  <SOPCModule>
+   <C>1</C>
+   <ModuleType>alt_sld_fab</ModuleType>
+   <SOPCModuleParameter>
+    <C>2</C>
+    <Name>DESIGN_HASH</Name>
+    <Value>8e5f6754fd1674afa7ec</Value>
+   </SOPCModuleParameter>
+   <SOPCModuleParameter>
+    <C>3</C>
+    <Name>NODE_COUNT</Name>
+    <Value>1</Value>
+   </SOPCModuleParameter>
+   <SOPCModuleParameter>
+    <C>4</C>
+    <Name>MAX_WIDTH</Name>
+    <Value>33</Value>
+   </SOPCModuleParameter>
+   <SOPCModuleParameter>
+    <C>5</C>
+    <Name>SETTINGS</Name>
+    <Value>{fabric sld dir agent mfr_code 110 type_code 0 version 6 instance 0 ir_width 10 psig f63706bb} </Value>
+   </SOPCModuleParameter>
+   <SOPCModuleParameter>
+    <C>6</C>
+    <Name>CLOCKS</Name>
+    <Value>{id {} } </Value>
+   </SOPCModuleParameter>
+   <SOPCModuleParameter>
+    <C>7</C>
+    <Name>AGENTS</Name>
+    <Value></Value>
+   </SOPCModuleParameter>
+   <SOPCModuleParameter>
+    <C>8</C>
+    <Name>EP_INFOS</Name>
+    <Value>{hpath {sld_signaltap:auto_signaltap_0} } </Value>
+   </SOPCModuleParameter>
+   <SOPCModuleParameter>
+    <C>9</C>
+    <Name>MIRROR</Name>
+    <Value>0</Value>
+   </SOPCModuleParameter>
+   <SOPCModuleParameter>
+    <C>10</C>
+    <Name>TOP_HUB</Name>
+    <Value>1</Value>
+   </SOPCModuleParameter>
+   <SOPCModuleParameter>
+    <C>11</C>
+    <Name>COMPOSED_SETTINGS</Name>
+    <Value>{fabric sld dir agent mfr_code 110 type_code 0 version 6 instance 0 ir_width 10 prefer_host {} } </Value>
+   </SOPCModuleParameter>
+   <SOPCModuleParameter>
+    <C>12</C>
+    <Name>DEVICE_FAMILY</Name>
+    <Value>MAX 10</Value>
+   </SOPCModuleParameter>
+   <SOPCModuleParameter>
+    <C>13</C>
+    <Name>AUTO_DEVICE</Name>
+    <Value>Unknown</Value>
+   </SOPCModuleParameter>
+   <SOPCModuleParameter>
+    <C>14</C>
+    <Name>AUTO_DEVICE_SPEEDGRADE</Name>
+    <Value>Unknown</Value>
+   </SOPCModuleParameter>
+  </SOPCModule>
+  <SystemID>971219268</SystemID>
+ </SOPCSystem>
+ <SchemaVersion>schema_2013-01-18</SchemaVersion>
+</ProgramExecution>

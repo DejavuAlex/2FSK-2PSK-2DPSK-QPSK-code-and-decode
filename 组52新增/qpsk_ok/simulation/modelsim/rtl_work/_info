@@ -1,0 +1,182 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Communication/Quartus/Work/qpsk_test/simulation/modelsim
+vController
+Z1 !s110 1551281205
+!i10b 1
+!s100 :DXzXl9Se15R83kmGI]G20
+ICSo4cSWO=3ah]IlI;BZ0h1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1547628330
+8E:/Communication/Quartus/Work/qpsk_test/Controller.v
+FE:/Communication/Quartus/Work/qpsk_test/Controller.v
+L0 1
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1551281205.000000
+!s107 E:/Communication/Quartus/Work/qpsk_test/Controller.v|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/qpsk_test|E:/Communication/Quartus/Work/qpsk_test/Controller.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/qpsk_test
+n@controller
+vcounter
+R1
+!i10b 1
+!s100 hL`X=^U;Q_K<?KTRbU4^42
+IUd6FkaYW_m:T:d?cE_nao0
+R2
+R0
+w1547625718
+8E:/Communication/Quartus/Work/qpsk_test/counter.v
+FE:/Communication/Quartus/Work/qpsk_test/counter.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Communication/Quartus/Work/qpsk_test/counter.v|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/qpsk_test|E:/Communication/Quartus/Work/qpsk_test/counter.v|
+!i113 1
+R5
+R6
+vcounter1
+Z7 !s110 1551281206
+!i10b 1
+!s100 Aj?3@QhO^T[Z4EmY[RoK70
+IKeXZ_lbI:F`]af2z>=]@;1
+R2
+R0
+w1547626353
+8E:/Communication/Quartus/Work/qpsk_test/counter1.v
+FE:/Communication/Quartus/Work/qpsk_test/counter1.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1551281206.000000
+!s107 E:/Communication/Quartus/Work/qpsk_test/counter1.v|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/qpsk_test|E:/Communication/Quartus/Work/qpsk_test/counter1.v|
+!i113 1
+R5
+R6
+vLookUpTable
+R1
+!i10b 1
+!s100 ^dS1Sc>Sn_7NPUR=bCRXY2
+IdSf>[[`Zkf5fLEXG>`^@Z2
+R2
+R0
+w1547043432
+8E:/Communication/Quartus/Work/qpsk_test/LookUpTable.v
+FE:/Communication/Quartus/Work/qpsk_test/LookUpTable.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Communication/Quartus/Work/qpsk_test/LookUpTable.v|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/qpsk_test|E:/Communication/Quartus/Work/qpsk_test/LookUpTable.v|
+!i113 1
+R5
+R6
+n@look@up@table
+vNRZ
+R1
+!i10b 1
+!s100 A9=f?ao9X:jHYM>^igR8N1
+IWkz?jW7h3;5Gfg;REg:Ne1
+R2
+R0
+w1547042894
+8E:/Communication/Quartus/Work/qpsk_test/NRZ.v
+FE:/Communication/Quartus/Work/qpsk_test/NRZ.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Communication/Quartus/Work/qpsk_test/NRZ.v|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/qpsk_test|E:/Communication/Quartus/Work/qpsk_test/NRZ.v|
+!i113 1
+R5
+R6
+n@n@r@z
+vNRZ1
+R7
+!i10b 1
+!s100 55o;=2NPlfzd`Fe@9`DK^2
+IdRnQ2ilIc?c0W`dLU@SoE3
+R2
+R0
+w1547627251
+8E:/Communication/Quartus/Work/qpsk_test/NRZ1.v
+FE:/Communication/Quartus/Work/qpsk_test/NRZ1.v
+L0 2
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/Communication/Quartus/Work/qpsk_test/NRZ1.v|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/qpsk_test|E:/Communication/Quartus/Work/qpsk_test/NRZ1.v|
+!i113 1
+R5
+R6
+n@n@r@z1
+vqpsk
+R1
+!i10b 1
+!s100 `V]JOSaV59meVa4FRH@k^1
+I^<o_]3Ed1DQITQOTbUJja0
+R2
+R0
+w1547626839
+8E:/Communication/Quartus/Work/qpsk_test/qpsk.v
+FE:/Communication/Quartus/Work/qpsk_test/qpsk.v
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Communication/Quartus/Work/qpsk_test/qpsk.v|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/qpsk_test|E:/Communication/Quartus/Work/qpsk_test/qpsk.v|
+!i113 1
+R5
+R6
+vqpsk_vlg_tst
+R7
+!i10b 1
+!s100 1;edRPY_A;DlbHedLOWTA0
+I>REVJ[]E4UEKbT[4gfZa;0
+R2
+R0
+w1548145598
+8E:/Communication/Quartus/Work/qpsk_test/simulation/modelsim/qpsk.vt
+FE:/Communication/Quartus/Work/qpsk_test/simulation/modelsim/qpsk.vt
+L0 28
+R3
+r1
+!s85 0
+31
+R8
+!s107 E:/Communication/Quartus/Work/qpsk_test/simulation/modelsim/qpsk.vt|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/qpsk_test/simulation/modelsim|E:/Communication/Quartus/Work/qpsk_test/simulation/modelsim/qpsk.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/qpsk_test/simulation/modelsim

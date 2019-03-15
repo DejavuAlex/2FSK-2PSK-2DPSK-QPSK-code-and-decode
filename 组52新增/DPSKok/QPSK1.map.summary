@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Fri Mar 01 19:13:15 2019
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Revision Name : QPSK1
+Top-level Entity Name : QPSK1
+Family : MAX 10
+Total logic elements : 896
+    Total combinational functions : 649
+    Dedicated logic registers : 651
+Total registers : 651
+Total pins : 212
+Total virtual pins : 0
+Total memory bits : 36,864
+Embedded Multiplier 9-bit elements : 2
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0

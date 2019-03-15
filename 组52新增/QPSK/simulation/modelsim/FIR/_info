@@ -1,0 +1,536 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Communication/Quartus/Work/QPSK/simulation/modelsim
+valtera_avalon_sc_fifo
+!s110 1550990124
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+IJ28`>e:I=A^WbKTYYgTQ=1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z2 w1550731610
+8E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/altera_avalon_sc_fifo.v
+FE:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/altera_avalon_sc_fifo.v
+L0 21
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1550990124.000000
+!s107 E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|FIR|+incdir+E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules|E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+Z4 o-vlog01compat -work FIR
+!s92 -vlog01compat -work FIR +incdir+E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules
+Eauk_dspip_avalon_streaming_controller_hpfir
+R2
+Z5 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_avalon_streaming_controller_hpfir.vhd
+Z9 FE:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_avalon_streaming_controller_hpfir.vhd
+l0
+L41
+V@Ej1VbOMaVoKiTbK^?@@_0
+!s100 ORMaER9G]`b[YkFGoXo<C3
+Z10 OV;C;10.4d;61
+31
+Z11 !s110 1551020969
+!i10b 1
+Z12 !s108 1551020969.000000
+Z13 !s90 -reportprogress|300|-93|-work|FIR|E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_avalon_streaming_controller_hpfir.vhd|
+Z14 !s107 E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_avalon_streaming_controller_hpfir.vhd|
+!i113 1
+Z15 o-93 -work FIR
+Z16 tExplicit 1 CheckSynthesis 1 NoCoverage 1
+Astruct
+R5
+R6
+R7
+DEx4 work 43 auk_dspip_avalon_streaming_controller_hpfir 0 22 @Ej1VbOMaVoKiTbK^?@@_0
+l72
+L64
+V3fi@>IVciOb[<S6;EYgea1
+!s100 MWO51>Fz`WN=CIY16D1gH2
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Eauk_dspip_avalon_streaming_sink_hpfir
+R2
+Z17 DPx9 altera_mf 20 altera_mf_components 0 22 JIZVPUohD7dNa?8:C5^LG2
+Z18 DPx4 work 24 auk_dspip_math_pkg_hpfir 0 22 JCW]HjZ=CXl72]3n31VA13
+Z19 DPx4 work 23 auk_dspip_lib_pkg_hpfir 0 22 mZf[6Xdgb<^iCfPQ;^chZ0
+Z20 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R6
+R7
+R0
+Z21 8E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_avalon_streaming_sink_hpfir.vhd
+Z22 FE:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_avalon_streaming_sink_hpfir.vhd
+l0
+L56
+V@`9XZ0TVFj`fT80d@OgE=2
+!s100 0WO5KznO2MM4IEKTLL4ea1
+R10
+31
+Z23 !s110 1551020971
+!i10b 1
+Z24 !s108 1551020971.000000
+Z25 !s90 -reportprogress|300|-93|-work|FIR|E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_avalon_streaming_sink_hpfir.vhd|
+Z26 !s107 E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_avalon_streaming_sink_hpfir.vhd|
+!i113 1
+R15
+R16
+Artl
+R17
+R18
+R19
+R20
+R6
+R7
+DEx4 work 37 auk_dspip_avalon_streaming_sink_hpfir 0 22 @`9XZ0TVFj`fT80d@OgE=2
+l164
+L106
+VL?QC<23=5XS:H[QiGd6F>2
+!s100 aKlIFR2DezO>78LXQeZZW1
+R10
+31
+R23
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R15
+R16
+Eauk_dspip_avalon_streaming_source_hpfir
+R2
+R18
+R17
+R20
+R6
+R7
+R0
+Z27 8E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_avalon_streaming_source_hpfir.vhd
+Z28 FE:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_avalon_streaming_source_hpfir.vhd
+l0
+L70
+V@969gET_2n4lP[ClOG^kA0
+!s100 z_E>RhDjTK@iSkAe6<CzM1
+R10
+31
+Z29 !s110 1551020970
+!i10b 1
+Z30 !s108 1551020970.000000
+Z31 !s90 -reportprogress|300|-93|-work|FIR|E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_avalon_streaming_source_hpfir.vhd|
+Z32 !s107 E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_avalon_streaming_source_hpfir.vhd|
+!i113 1
+R15
+R16
+Artl
+R18
+R17
+R20
+R6
+R7
+DEx4 work 39 auk_dspip_avalon_streaming_source_hpfir 0 22 @969gET_2n4lP[ClOG^kA0
+l190
+L109
+VQ155;KabSQIl>>Z_h;TEa0
+!s100 9_^:d_>A;JGb2ekO`XAiL1
+R10
+31
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R15
+R16
+Pauk_dspip_lib_pkg_hpfir
+R18
+R20
+R6
+R7
+R2
+R0
+8E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_lib_pkg_hpfir.vhd
+FE:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_lib_pkg_hpfir.vhd
+l0
+L22
+VmZf[6Xdgb<^iCfPQ;^chZ0
+!s100 f?>LI6^Y:?0:4C>aOS6?X2
+R10
+31
+R29
+!i10b 1
+R30
+!s90 -reportprogress|300|-93|-work|FIR|E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_lib_pkg_hpfir.vhd|
+!s107 E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_lib_pkg_hpfir.vhd|
+!i113 1
+R15
+R16
+Pauk_dspip_math_pkg_hpfir
+R20
+R6
+R7
+R2
+R0
+Z33 8E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_math_pkg_hpfir.vhd
+Z34 FE:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_math_pkg_hpfir.vhd
+l0
+L54
+VJCW]HjZ=CXl72]3n31VA13
+!s100 @O6TWU38[<`Y=f_oja2am1
+R10
+31
+b1
+R11
+!i10b 1
+R12
+Z35 !s90 -reportprogress|300|-93|-work|FIR|E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_math_pkg_hpfir.vhd|
+Z36 !s107 E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_math_pkg_hpfir.vhd|
+!i113 1
+R15
+R16
+Bbody
+R18
+R20
+R6
+R7
+l0
+L131
+VMdifm0=55h0B8]dQmP_]12
+!s100 EDZNSThdcYV1lkL7HbnIz0
+R10
+31
+R11
+!i10b 1
+R12
+R35
+R36
+!i113 1
+R15
+R16
+Eauk_dspip_roundsat_hpfir
+R2
+R20
+R6
+R7
+R0
+Z37 8E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_roundsat_hpfir.vhd
+Z38 FE:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_roundsat_hpfir.vhd
+l0
+L39
+Vi41F_eOnn;h06h53Q=h4B3
+!s100 S`Ha]KjQXV0CDDgljgCX;0
+R10
+31
+R11
+!i10b 1
+R12
+Z39 !s90 -reportprogress|300|-93|-work|FIR|E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_roundsat_hpfir.vhd|
+Z40 !s107 E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/auk_dspip_roundsat_hpfir.vhd|
+!i113 1
+R15
+R16
+Abeh
+R20
+R6
+R7
+DEx4 work 24 auk_dspip_roundsat_hpfir 0 22 i41F_eOnn;h06h53Q=h4B3
+l66
+L57
+VkeA1EQ1RGmh49I5aY^?cX1
+!s100 SAz6VWg0=:KiPPFk<lih43
+R10
+31
+R11
+!i10b 1
+R12
+R39
+R40
+!i113 1
+R15
+R16
+Edspba_delay
+R2
+Z41 DPx4 work 21 dspba_library_package 0 22 jWk;I9?G>Pd@EV8=[P0ZZ2
+R6
+R7
+R0
+Z42 8E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/dspba_library.vhd
+Z43 FE:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/dspba_library.vhd
+l0
+L17
+Vca7X?N2fKoT3Ob55l3k^j3
+!s100 ^TiG3k=nd2oZ:zDO86VNb1
+R10
+31
+R29
+!i10b 1
+R30
+Z44 !s90 -reportprogress|300|-93|-work|FIR|E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/dspba_library.vhd|
+Z45 !s107 E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/dspba_library.vhd|
+!i113 1
+R15
+R16
+Adelay
+R41
+R6
+R7
+DEx4 work 11 dspba_delay 0 22 ca7X?N2fKoT3Ob55l3k^j3
+l36
+L33
+VM_`D`RWZZmfEOIAB5aO^J0
+!s100 j]g:M?2k]LeVG21D9S<fR1
+R10
+31
+R29
+!i10b 1
+R30
+R44
+R45
+!i113 1
+R15
+R16
+Pdspba_library_package
+R6
+R7
+R2
+R0
+8E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/dspba_library_package.vhd
+FE:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/dspba_library_package.vhd
+l0
+L16
+VjWk;I9?G>Pd@EV8=[P0ZZ2
+!s100 Kkg3D5QbeHdNM2YFz@ZF=2
+R10
+31
+!s110 1551020968
+!i10b 1
+!s108 1551020968.000000
+!s90 -reportprogress|300|-93|-work|FIR|E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/dspba_library_package.vhd|
+!s107 E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/dspba_library_package.vhd|
+!i113 1
+R15
+R16
+Edspba_sync_reg
+R2
+R41
+R20
+R6
+R7
+R0
+R42
+R43
+l0
+L91
+V[c5UDa7=UHWnml8Z7@GD40
+!s100 LBWk;n`f_bk?X_QJICA5i3
+R10
+31
+R29
+!i10b 1
+R30
+R44
+R45
+!i113 1
+R15
+R16
+Async_reg
+R41
+R20
+R6
+R7
+DEx4 work 14 dspba_sync_reg 0 22 [c5UDa7=UHWnml8Z7@GD40
+l134
+L115
+V:M7E4JUB^`bkJY:Jb2[8F0
+!s100 EMlEXT<EU621V40LT:5fK3
+R10
+31
+R29
+!i10b 1
+R30
+R44
+R45
+!i113 1
+R15
+R16
+vFIR
+!s110 1551020967
+!i10b 1
+!s100 <HF@W`e2BW:@[am_5IdW22
+I1F?AUXPHH^I1Oa@:l>SR]2
+R1
+R0
+R2
+8E:/Communication/Quartus/Work/QPSK/FIR/synthesis/FIR.v
+FE:/Communication/Quartus/Work/QPSK/FIR/synthesis/FIR.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1551020967.000000
+!s107 E:/Communication/Quartus/Work/QPSK/FIR/synthesis/FIR.v|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|FIR|+incdir+E:/Communication/Quartus/Work/QPSK/FIR/synthesis|E:/Communication/Quartus/Work/QPSK/FIR/synthesis/FIR.v|
+!i113 1
+R4
+!s92 -vlog01compat -work FIR +incdir+E:/Communication/Quartus/Work/QPSK/FIR/synthesis
+n@f@i@r
+Efir_fir_compiler_ii_0
+R2
+R18
+R20
+R19
+R6
+R7
+R0
+Z46 8E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/FIR_fir_compiler_ii_0.vhd
+Z47 FE:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/FIR_fir_compiler_ii_0.vhd
+l0
+L19
+VZ]9^Oc210@3PV1Q`Tz16]0
+!s100 ?Kfmn4_^N:MT^Cg?8cD<L0
+R10
+31
+Z48 !s110 1551020972
+!i10b 1
+Z49 !s108 1551020972.000000
+Z50 !s90 -reportprogress|300|-93|-work|FIR|E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/FIR_fir_compiler_ii_0.vhd|
+Z51 !s107 E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/FIR_fir_compiler_ii_0.vhd|
+!i113 1
+R15
+R16
+Asyn
+R18
+R20
+R19
+R6
+R7
+Z52 DEx4 work 21 fir_fir_compiler_ii_0 0 22 Z]9^Oc210@3PV1Q`Tz16]0
+l56
+L33
+Z53 V6zJT`:DJCTk9;GaF@ha5:3
+Z54 !s100 <W3mHY1^8267eDQ@iXeAo1
+R10
+31
+R48
+!i10b 1
+R49
+R50
+R51
+!i113 1
+R15
+R16
+Efir_fir_compiler_ii_0_ast
+R2
+R18
+R19
+R20
+R6
+R7
+R0
+Z55 8E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/FIR_fir_compiler_ii_0_ast.vhd
+Z56 FE:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/FIR_fir_compiler_ii_0_ast.vhd
+l0
+L9
+VT_m;:CFa2>L:Sjc1X_X9P3
+!s100 659:U:YK1OHZUVc3YO0k52
+R10
+31
+R48
+!i10b 1
+R24
+Z57 !s90 -reportprogress|300|-93|-work|FIR|E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/FIR_fir_compiler_ii_0_ast.vhd|
+Z58 !s107 E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/FIR_fir_compiler_ii_0_ast.vhd|
+!i113 1
+R15
+R16
+Astruct
+R18
+R19
+R20
+R6
+R7
+DEx4 work 25 fir_fir_compiler_ii_0_ast 0 22 T_m;:CFa2>L:Sjc1X_X9P3
+l88
+L55
+VcTgVZ2Z4X@>;3jdo;E@gg1
+!s100 8TbiHjI]2USgBX6kje=eC0
+R10
+31
+R48
+!i10b 1
+R24
+R57
+R58
+!i113 1
+R15
+R16
+Efir_fir_compiler_ii_0_rtl_core
+R2
+Z59 DPx3 lpm 14 lpm_components 0 22 PJ28@G3kVfi:?TUaV^5XM3
+R17
+R41
+Z60 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R20
+R6
+R7
+R0
+Z61 8E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/FIR_fir_compiler_ii_0_rtl_core.vhd
+Z62 FE:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/FIR_fir_compiler_ii_0_rtl_core.vhd
+l0
+L34
+VA26YLi?G@XA1Gk?917PZ90
+!s100 Je[ON@`ZKVS_[JKf:X2X32
+R10
+31
+R23
+!i10b 1
+R24
+Z63 !s90 -reportprogress|300|-93|-work|FIR|E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/FIR_fir_compiler_ii_0_rtl_core.vhd|
+Z64 !s107 E:/Communication/Quartus/Work/QPSK/FIR/synthesis/submodules/FIR_fir_compiler_ii_0_rtl_core.vhd|
+!i113 1
+R15
+R16
+Anormal
+R59
+R17
+R41
+R60
+R20
+R6
+R7
+DEx4 work 30 fir_fir_compiler_ii_0_rtl_core 0 22 A26YLi?G@XA1Gk?917PZ90
+l679
+L47
+Vn5POWT]fP16Nj4LPQhR1Q0
+!s100 H1J=lPieUhEM@z:dGNjOC0
+R10
+31
+R23
+!i10b 1
+R24
+R63
+R64
+!i113 1
+R15
+R16

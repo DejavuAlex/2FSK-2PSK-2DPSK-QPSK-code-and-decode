@@ -1,0 +1,160 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Communication/Quartus/Work/bpsk-ok/simulation/modelsim
+vbpsk
+!s110 1551351038
+!i10b 1
+!s100 k6`6C9Q;=J4?<0GUc7HZ31
+IcR40HmGMYNiPYJMONGYRl0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1551350843
+8E:/Communication/Quartus/Work/bpsk-ok/bpsk.v
+FE:/Communication/Quartus/Work/bpsk-ok/bpsk.v
+L0 1
+Z2 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z3 !s108 1551351038.000000
+!s107 E:/Communication/Quartus/Work/bpsk-ok/bpsk.v|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/bpsk-ok|E:/Communication/Quartus/Work/bpsk-ok/bpsk.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/bpsk-ok
+vbpsk_vlg_tst
+Z6 !s110 1551351039
+!i10b 1
+!s100 A8[;YkJSS?<^=<[iF:jn31
+I`l?j68Ad>zL=`oaG>:a442
+R1
+R0
+w1546695526
+8E:/Communication/Quartus/Work/bpsk-ok/simulation/modelsim/bpsk.vt
+FE:/Communication/Quartus/Work/bpsk-ok/simulation/modelsim/bpsk.vt
+L0 29
+R2
+r1
+!s85 0
+31
+Z7 !s108 1551351039.000000
+!s107 E:/Communication/Quartus/Work/bpsk-ok/simulation/modelsim/bpsk.vt|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/bpsk-ok/simulation/modelsim|E:/Communication/Quartus/Work/bpsk-ok/simulation/modelsim/bpsk.vt|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/bpsk-ok/simulation/modelsim
+vController
+R6
+!i10b 1
+!s100 EMTaX>?n9AHgJh;:?;4=R1
+I24hAYe1NC?:0@E>VA3m;g0
+R1
+R0
+w1551350848
+8E:/Communication/Quartus/Work/bpsk-ok/Controller.v
+FE:/Communication/Quartus/Work/bpsk-ok/Controller.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 E:/Communication/Quartus/Work/bpsk-ok/Controller.v|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/bpsk-ok|E:/Communication/Quartus/Work/bpsk-ok/Controller.v|
+!i113 1
+R4
+R5
+n@controller
+vcounter
+R6
+!i10b 1
+!s100 V@OR2^:46<4GWf:7K:iae3
+I9zLe[fMV8LQmi4]W@N8gn1
+R1
+R0
+w1546695112
+8E:/Communication/Quartus/Work/bpsk-ok/counter.v
+FE:/Communication/Quartus/Work/bpsk-ok/counter.v
+L0 1
+R2
+r1
+!s85 0
+31
+R3
+!s107 E:/Communication/Quartus/Work/bpsk-ok/counter.v|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/bpsk-ok|E:/Communication/Quartus/Work/bpsk-ok/counter.v|
+!i113 1
+R4
+R5
+vdepsk
+R6
+!i10b 1
+!s100 kdI@Sm0d4oelWa:S=aOb=1
+I537k?^QfROaRjHhUj?4UX0
+R1
+R0
+w1551341648
+8E:/Communication/Quartus/Work/bpsk-ok/depsk.v
+FE:/Communication/Quartus/Work/bpsk-ok/depsk.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 E:/Communication/Quartus/Work/bpsk-ok/depsk.v|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/bpsk-ok|E:/Communication/Quartus/Work/bpsk-ok/depsk.v|
+!i113 1
+R4
+R5
+vLookUpTable
+R6
+!i10b 1
+!s100 Fgaf3P]46cB4<KAhIldlY2
+IM4E17Yi?Und0Pdc5[k2BH1
+R1
+R0
+w1551350896
+8E:/Communication/Quartus/Work/bpsk-ok/LookUpTable.v
+FE:/Communication/Quartus/Work/bpsk-ok/LookUpTable.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 E:/Communication/Quartus/Work/bpsk-ok/LookUpTable.v|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/bpsk-ok|E:/Communication/Quartus/Work/bpsk-ok/LookUpTable.v|
+!i113 1
+R4
+R5
+n@look@up@table
+vPN_Seq
+R6
+!i10b 1
+!s100 YOo5o3OUiS88^LJcMTVn90
+I7^c47T_b=9kNdi>V[jd[01
+R1
+R0
+w1546693070
+8E:/Communication/Quartus/Work/bpsk-ok/PN_Seq.v
+FE:/Communication/Quartus/Work/bpsk-ok/PN_Seq.v
+L0 1
+R2
+r1
+!s85 0
+31
+R7
+!s107 E:/Communication/Quartus/Work/bpsk-ok/PN_Seq.v|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/bpsk-ok|E:/Communication/Quartus/Work/bpsk-ok/PN_Seq.v|
+!i113 1
+R4
+R5
+n@p@n_@seq

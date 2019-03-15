@@ -1,0 +1,49 @@
+--lpm_add_sub CARRY_CHAIN="MANUAL" CARRY_CHAIN_LENGTH=48 DEVICE_FAMILY="Cyclone V" LPM_PIPELINE=1 LPM_REPRESENTATION="SIGNED" LPM_WIDTH=14 aclr add_sub(vcc) clken clock dataa datab result
+--VERSION_BEGIN 16.0 cbx_cycloneii 2016:04:27:18:05:34:SJ cbx_lpm_add_sub 2016:04:27:18:05:34:SJ cbx_mgl 2016:04:27:18:06:48:SJ cbx_nadder 2016:04:27:18:05:34:SJ cbx_stratix 2016:04:27:18:05:34:SJ cbx_stratixii 2016:04:27:18:05:34:SJ  VERSION_END
+
+
+-- Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+--  Your use of Altera Corporation's design tools, logic functions 
+--  and other software and tools, and its AMPP partner logic 
+--  functions, and any output files from any of the foregoing 
+--  (including device programming or simulation files), and any 
+--  associated documentation or information are expressly subject 
+--  to the terms and conditions of the Altera Program License 
+--  Subscription Agreement, the Altera Quartus Prime License Agreement,
+--  the Altera MegaCore Function License Agreement, or other 
+--  applicable license agreement, including, without limitation, 
+--  that your use is for the sole purpose of programming logic 
+--  devices manufactured by Altera and sold by Altera or its 
+--  authorized distributors.  Please refer to the applicable 
+--  agreement for further details.
+
+
+
+--synthesis_resources = lut 14 
+SUBDESIGN add_sub_q0h
+( 
+	aclr	:	input;
+	add_sub	:	input;
+	clken	:	input;
+	clock	:	input;
+	dataa[13..0]	:	input;
+	datab[13..0]	:	input;
+	result[13..0]	:	output;
+) 
+VARIABLE
+	pipeline_dffe[13..0]	:	DFFE
+		WITH (
+			power_up ="low"
+		);
+	result_int[13..0]	:	WIRE;
+	const_used_add_sub	:	WIRE;
+BEGIN 
+	result_int[] = dataa[] + datab[];
+	pipeline_dffe[].clk = clock;
+	pipeline_dffe[].clrn = !aclr;
+	pipeline_dffe[].ena = clken;
+	result[] = pipeline_dffe[13..0].q;
+	pipeline_dffe[13..0].d = result_int[];
+	const_used_add_sub = add_sub;
+END;
+--VALID FILE

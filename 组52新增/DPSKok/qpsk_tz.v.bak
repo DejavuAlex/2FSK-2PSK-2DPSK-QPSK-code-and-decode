@@ -1,0 +1,4 @@
+module qpsktz(
+  input seq,
+  output qpsk_seq
+);

@@ -1,0 +1,480 @@
+// Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "02/23/2019 10:57:37"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          Block7
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module Block7_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg clk;
+reg en;
+reg [34:0] I;
+reg [34:0] Q;
+reg rst;
+// wires                                               
+wire IQ;
+
+// assign statements (if any)                          
+Block7 i1 (
+// port map - connection between master ports and signals/registers   
+	.clk(clk),
+	.en(en),
+	.I(I),
+	.IQ(IQ),
+	.Q(Q),
+	.rst(rst)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// clk
+always
+begin
+	clk = 1'b0;
+	clk = #5000 1'b1;
+	#5000;
+end 
+
+// en
+initial
+begin
+	en = 1'b1;
+end 
+// I[ 34 ]
+initial
+begin
+	I[34] = 1'b0;
+end 
+// I[ 33 ]
+initial
+begin
+	I[33] = 1'b0;
+end 
+// I[ 32 ]
+initial
+begin
+	I[32] = 1'b0;
+end 
+// I[ 31 ]
+initial
+begin
+	I[31] = 1'b0;
+end 
+// I[ 30 ]
+initial
+begin
+	I[30] = 1'b0;
+end 
+// I[ 29 ]
+initial
+begin
+	I[29] = 1'b0;
+end 
+// I[ 28 ]
+initial
+begin
+	I[28] = 1'b0;
+end 
+// I[ 27 ]
+initial
+begin
+	I[27] = 1'b0;
+end 
+// I[ 26 ]
+initial
+begin
+	I[26] = 1'b0;
+end 
+// I[ 25 ]
+initial
+begin
+	I[25] = 1'b0;
+end 
+// I[ 24 ]
+initial
+begin
+	I[24] = 1'b0;
+end 
+// I[ 23 ]
+initial
+begin
+	I[23] = 1'b0;
+end 
+// I[ 22 ]
+initial
+begin
+	I[22] = 1'b0;
+end 
+// I[ 21 ]
+initial
+begin
+	I[21] = 1'b0;
+end 
+// I[ 20 ]
+initial
+begin
+	I[20] = 1'b0;
+end 
+// I[ 19 ]
+initial
+begin
+	I[19] = 1'b0;
+end 
+// I[ 18 ]
+initial
+begin
+	I[18] = 1'b0;
+end 
+// I[ 17 ]
+initial
+begin
+	I[17] = 1'b0;
+end 
+// I[ 16 ]
+initial
+begin
+	I[16] = 1'b0;
+end 
+// I[ 15 ]
+initial
+begin
+	I[15] = 1'b0;
+end 
+// I[ 14 ]
+initial
+begin
+	I[14] = 1'b0;
+end 
+// I[ 13 ]
+initial
+begin
+	I[13] = 1'b0;
+end 
+// I[ 12 ]
+initial
+begin
+	I[12] = 1'b0;
+end 
+// I[ 11 ]
+initial
+begin
+	I[11] = 1'b0;
+end 
+// I[ 10 ]
+initial
+begin
+	I[10] = 1'b0;
+end 
+// I[ 9 ]
+initial
+begin
+	I[9] = 1'b0;
+end 
+// I[ 8 ]
+initial
+begin
+	I[8] = 1'b0;
+end 
+// I[ 7 ]
+initial
+begin
+	I[7] = 1'b0;
+	I[7] = #640000 1'b1;
+end 
+// I[ 6 ]
+initial
+begin
+	I[6] = 1'b0;
+	I[6] = #320000 1'b1;
+	I[6] = #320000 1'b0;
+	I[6] = #320000 1'b1;
+end 
+// I[ 5 ]
+initial
+begin
+	repeat(3)
+	begin
+		I[5] = 1'b0;
+		I[5] = #160000 1'b1;
+		# 160000;
+	end
+	I[5] = 1'b0;
+end 
+// I[ 4 ]
+initial
+begin
+	repeat(6)
+	begin
+		I[4] = 1'b0;
+		I[4] = #80000 1'b1;
+		# 80000;
+	end
+	I[4] = 1'b0;
+end 
+// I[ 3 ]
+initial
+begin
+	repeat(12)
+	begin
+		I[3] = 1'b0;
+		I[3] = #40000 1'b1;
+		# 40000;
+	end
+	I[3] = 1'b0;
+end 
+// I[ 2 ]
+always
+begin
+	I[2] = 1'b0;
+	I[2] = #20000 1'b1;
+	#20000;
+end 
+// I[ 1 ]
+always
+begin
+	I[1] = 1'b0;
+	I[1] = #10000 1'b1;
+	#10000;
+end 
+// I[ 0 ]
+always
+begin
+	I[0] = 1'b0;
+	I[0] = #5000 1'b1;
+	#5000;
+end 
+// Q[ 34 ]
+initial
+begin
+	Q[34] = 1'b0;
+end 
+// Q[ 33 ]
+initial
+begin
+	Q[33] = 1'b0;
+end 
+// Q[ 32 ]
+initial
+begin
+	Q[32] = 1'b0;
+end 
+// Q[ 31 ]
+initial
+begin
+	Q[31] = 1'b0;
+end 
+// Q[ 30 ]
+initial
+begin
+	Q[30] = 1'b0;
+end 
+// Q[ 29 ]
+initial
+begin
+	Q[29] = 1'b0;
+end 
+// Q[ 28 ]
+initial
+begin
+	Q[28] = 1'b0;
+end 
+// Q[ 27 ]
+initial
+begin
+	Q[27] = 1'b0;
+end 
+// Q[ 26 ]
+initial
+begin
+	Q[26] = 1'b0;
+end 
+// Q[ 25 ]
+initial
+begin
+	Q[25] = 1'b0;
+end 
+// Q[ 24 ]
+initial
+begin
+	Q[24] = 1'b0;
+end 
+// Q[ 23 ]
+initial
+begin
+	Q[23] = 1'b0;
+end 
+// Q[ 22 ]
+initial
+begin
+	Q[22] = 1'b0;
+end 
+// Q[ 21 ]
+initial
+begin
+	Q[21] = 1'b0;
+end 
+// Q[ 20 ]
+initial
+begin
+	Q[20] = 1'b0;
+end 
+// Q[ 19 ]
+initial
+begin
+	Q[19] = 1'b0;
+end 
+// Q[ 18 ]
+initial
+begin
+	Q[18] = 1'b0;
+end 
+// Q[ 17 ]
+initial
+begin
+	Q[17] = 1'b0;
+end 
+// Q[ 16 ]
+initial
+begin
+	Q[16] = 1'b0;
+end 
+// Q[ 15 ]
+initial
+begin
+	Q[15] = 1'b0;
+end 
+// Q[ 14 ]
+initial
+begin
+	Q[14] = 1'b0;
+end 
+// Q[ 13 ]
+initial
+begin
+	Q[13] = 1'b0;
+end 
+// Q[ 12 ]
+initial
+begin
+	Q[12] = 1'b0;
+end 
+// Q[ 11 ]
+initial
+begin
+	Q[11] = 1'b0;
+end 
+// Q[ 10 ]
+initial
+begin
+	Q[10] = 1'b0;
+end 
+// Q[ 9 ]
+initial
+begin
+	Q[9] = 1'b0;
+end 
+// Q[ 8 ]
+initial
+begin
+	Q[8] = 1'b0;
+end 
+// Q[ 7 ]
+initial
+begin
+	Q[7] = 1'b0;
+end 
+// Q[ 6 ]
+initial
+begin
+	Q[6] = 1'b0;
+	Q[6] = #640000 1'b1;
+end 
+// Q[ 5 ]
+initial
+begin
+	Q[5] = 1'b0;
+	Q[5] = #320000 1'b1;
+	Q[5] = #320000 1'b0;
+	Q[5] = #320000 1'b1;
+end 
+// Q[ 4 ]
+initial
+begin
+	repeat(3)
+	begin
+		Q[4] = 1'b0;
+		Q[4] = #160000 1'b1;
+		# 160000;
+	end
+	Q[4] = 1'b0;
+end 
+// Q[ 3 ]
+initial
+begin
+	repeat(6)
+	begin
+		Q[3] = 1'b0;
+		Q[3] = #80000 1'b1;
+		# 80000;
+	end
+	Q[3] = 1'b0;
+end 
+// Q[ 2 ]
+initial
+begin
+	repeat(12)
+	begin
+		Q[2] = 1'b0;
+		Q[2] = #40000 1'b1;
+		# 40000;
+	end
+	Q[2] = 1'b0;
+end 
+// Q[ 1 ]
+always
+begin
+	Q[1] = 1'b0;
+	Q[1] = #20000 1'b1;
+	#20000;
+end 
+// Q[ 0 ]
+always
+begin
+	Q[0] = 1'b0;
+	Q[0] = #10000 1'b1;
+	#10000;
+end 
+
+// rst
+initial
+begin
+	rst = 1'b1;
+end 
+endmodule
+

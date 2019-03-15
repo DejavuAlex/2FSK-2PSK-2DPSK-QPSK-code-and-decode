@@ -1,0 +1,121 @@
+# Reading E:/Communication/modelsim_ase/tcl/vsim/pref.tcl
+# do qpsk_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Modifying E:/Communication/modelsim_ase/win32aloem/modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/qpsk_test {E:/Communication/Quartus/Work/qpsk_test/qpsk.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 23:26:45 on Feb 27,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/qpsk_test" E:/Communication/Quartus/Work/qpsk_test/qpsk.v 
+# -- Compiling module qpsk
+# 
+# Top level modules:
+# 	qpsk
+# End time: 23:26:45 on Feb 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/qpsk_test {E:/Communication/Quartus/Work/qpsk_test/NRZ.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 23:26:45 on Feb 27,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/qpsk_test" E:/Communication/Quartus/Work/qpsk_test/NRZ.v 
+# -- Compiling module NRZ
+# 
+# Top level modules:
+# 	NRZ
+# End time: 23:26:45 on Feb 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/qpsk_test {E:/Communication/Quartus/Work/qpsk_test/LookUpTable.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 23:26:45 on Feb 27,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/qpsk_test" E:/Communication/Quartus/Work/qpsk_test/LookUpTable.v 
+# -- Compiling module LookUpTable
+# 
+# Top level modules:
+# 	LookUpTable
+# End time: 23:26:45 on Feb 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/qpsk_test {E:/Communication/Quartus/Work/qpsk_test/counter.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 23:26:45 on Feb 27,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/qpsk_test" E:/Communication/Quartus/Work/qpsk_test/counter.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 23:26:45 on Feb 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/qpsk_test {E:/Communication/Quartus/Work/qpsk_test/Controller.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 23:26:45 on Feb 27,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/qpsk_test" E:/Communication/Quartus/Work/qpsk_test/Controller.v 
+# -- Compiling module Controller
+# 
+# Top level modules:
+# 	Controller
+# End time: 23:26:45 on Feb 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/qpsk_test {E:/Communication/Quartus/Work/qpsk_test/counter1.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 23:26:46 on Feb 27,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/qpsk_test" E:/Communication/Quartus/Work/qpsk_test/counter1.v 
+# -- Compiling module counter1
+# 
+# Top level modules:
+# 	counter1
+# End time: 23:26:46 on Feb 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/qpsk_test {E:/Communication/Quartus/Work/qpsk_test/NRZ1.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 23:26:46 on Feb 27,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/qpsk_test" E:/Communication/Quartus/Work/qpsk_test/NRZ1.v 
+# -- Compiling module NRZ1
+# 
+# Top level modules:
+# 	NRZ1
+# End time: 23:26:46 on Feb 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/qpsk_test/simulation/modelsim {E:/Communication/Quartus/Work/qpsk_test/simulation/modelsim/qpsk.vt}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 23:26:46 on Feb 27,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/qpsk_test/simulation/modelsim" E:/Communication/Quartus/Work/qpsk_test/simulation/modelsim/qpsk.vt 
+# -- Compiling module qpsk_vlg_tst
+# 
+# Top level modules:
+# 	qpsk_vlg_tst
+# End time: 23:26:46 on Feb 27,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  qpsk_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" qpsk_vlg_tst 
+# Start time: 23:26:46 on Feb 27,2019
+# Loading work.qpsk_vlg_tst
+# Loading work.qpsk
+# Loading work.counter
+# Loading work.NRZ
+# Loading work.Controller
+# Loading work.LookUpTable
+# Loading work.counter1
+# Loading work.NRZ1
+# ** Warning: (vsim-3017) E:/Communication/Quartus/Work/qpsk_test/qpsk.v(59): [TFMPC] - Too few port connections. Expected 8, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /qpsk_vlg_tst/i1/b2v_inst2 File: E:/Communication/Quartus/Work/qpsk_test/Controller.v
+# ** Warning: (vsim-3722) E:/Communication/Quartus/Work/qpsk_test/qpsk.v(59): [TFMPC] - Missing connection for port 'clk_DA'.
+# ** Warning: (vsim-3722) E:/Communication/Quartus/Work/qpsk_test/qpsk.v(59): [TFMPC] - Missing connection for port 'blank_DA_n'.
+# ** Warning: (vsim-3722) E:/Communication/Quartus/Work/qpsk_test/qpsk.v(59): [TFMPC] - Missing connection for port 'sync_DA_n'.
+# ** Warning: (vsim-3017) E:/Communication/Quartus/Work/qpsk_test/qpsk.v(70): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /qpsk_vlg_tst/i1/b2v_inst4 File: E:/Communication/Quartus/Work/qpsk_test/LookUpTable.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench
+# End time: 23:27:36 on Feb 27,2019, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 5

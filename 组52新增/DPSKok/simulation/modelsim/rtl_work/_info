@@ -1,0 +1,221 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/DPSK/simulation/modelsim
+vadder
+Z1 !s110 1519967813
+!i10b 1
+!s100 MbcIT=4Z?W^;_0:]=Kd[T3
+IQPE<DeOhjgSFk1Y0?dfj01
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1519893242
+8E:/DPSK/adder#.v
+FE:/DPSK/adder#.v
+L0 1
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1519967813.439000
+!s107 E:/DPSK/adder#.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DPSK|E:/DPSK/adder#.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+E:/DPSK
+vdds
+Z6 !s110 1519967814
+!i10b 1
+!s100 keB76Y1^L]<W0QVi33^UC2
+IkMhzC6O9hhA`gnmbB16[S3
+R2
+R0
+w1519902576
+8E:/DPSK/dds.v
+FE:/DPSK/dds.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1519967814.419000
+!s107 E:/DPSK/dds.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DPSK|E:/DPSK/dds.v|
+!i113 1
+R4
+R5
+vDPSK
+R1
+!i10b 1
+!s100 =W^K0XHGWc[7CYPoJHXD13
+I_nn^Z5Pc[@`0IY6`YYK[T3
+R2
+R0
+w1519954514
+8E:/DPSK/dpsk.v
+FE:/DPSK/dpsk.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1519967813.619000
+!s107 E:/DPSK/dpsk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DPSK|E:/DPSK/dpsk.v|
+!i113 1
+R4
+R5
+n@d@p@s@k
+vdpsk_jt
+R1
+!i10b 1
+!s100 iVHc`bPkzP^8<69g1UcTl3
+I>^kgUMGB`VH8Li=fH`ASd0
+R2
+R0
+w1519954668
+8E:/DPSK/dpsk_jt.v
+FE:/DPSK/dpsk_jt.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1519967813.543000
+!s107 E:/DPSK/dpsk_jt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DPSK|E:/DPSK/dpsk_jt.v|
+!i113 1
+R4
+R5
+vdpsk_tz
+R1
+!i10b 1
+!s100 3ekJc^:a8IgZNWee2_11N3
+Ij;zL09@J:zK<=d:80B6F03
+R2
+R0
+w1519952108
+8E:/DPSK/dpsk_tz.v
+FE:/DPSK/dpsk_tz.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1519967812.823000
+!s107 E:/DPSK/dpsk_tz.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DPSK|E:/DPSK/dpsk_tz.v|
+!i113 1
+R4
+R5
+vmac
+!s110 1519967815
+!i10b 1
+!s100 1CmR6772iRXE[2T;dL_7d3
+IB>^0>SmQ6XRUZi1Mk>j`91
+R2
+R0
+w1519879548
+8E:/DPSK/mac.v
+FE:/DPSK/mac.v
+Z7 L0 40
+R3
+r1
+!s85 0
+31
+!s108 1519967815.083000
+!s107 E:/DPSK/mac.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DPSK|E:/DPSK/mac.v|
+!i113 1
+R4
+R5
+vpll
+R1
+!i10b 1
+!s100 kicMUlhngPmSz?3_@XCCZ0
+I9UdOM95ZEBDNaR2nGkCDB0
+R2
+R0
+w1519895474
+8E:/DPSK/pll.v
+FE:/DPSK/pll.v
+R7
+R3
+r1
+!s85 0
+31
+!s108 1519967813.855000
+!s107 E:/DPSK/pll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DPSK|E:/DPSK/pll.v|
+!i113 1
+R4
+R5
+vpll_altpll
+R6
+!i10b 1
+!s100 5C=NP14]:MgOYnjin1fOT3
+IPjzFXg1h4c<IGJ?GRIoRb1
+R2
+R0
+w1519895604
+8E:/DPSK/db/pll_altpll.v
+FE:/DPSK/db/pll_altpll.v
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1519967814.191000
+!s107 E:/DPSK/db/pll_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DPSK/db|E:/DPSK/db/pll_altpll.v|
+!i113 1
+R4
+!s92 -vlog01compat -work work +incdir+E:/DPSK/db
+vqseq
+R6
+!i10b 1
+!s100 MPig[An<FA==:hhL_c3^o0
+IF]>mal@>6:4o0^o:]IcJ;1
+R2
+R0
+w1519954112
+8E:/DPSK/qseq.v
+FE:/DPSK/qseq.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1519967814.859000
+!s107 E:/DPSK/qseq.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DPSK|E:/DPSK/qseq.v|
+!i113 1
+R4
+R5
+vrom_sine0
+R6
+!i10b 1
+!s100 `lBU3J^g4NN]NB83ahKLK2
+I0meV5nM0bINBSUk@zHNc72
+R2
+R0
+w1515509100
+8E:/DPSK/rom_sine0.v
+FE:/DPSK/rom_sine0.v
+L0 39
+R3
+r1
+!s85 0
+31
+!s108 1519967814.587000
+!s107 E:/DPSK/rom_sine0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+E:/DPSK|E:/DPSK/rom_sine0.v|
+!i113 1
+R4
+R5

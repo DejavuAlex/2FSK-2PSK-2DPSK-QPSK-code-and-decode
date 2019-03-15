@@ -1,0 +1,18 @@
+Fitter Status : Successful - Fri Mar 01 20:08:59 2019
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Revision Name : qpsk
+Top-level Entity Name : qpsk
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 932 / 49,760 ( 2 % )
+    Total combinational functions : 694 / 49,760 ( 1 % )
+    Dedicated logic registers : 611 / 49,760 ( 1 % )
+Total registers : 611
+Total pins : 14 / 360 ( 4 % )
+Total virtual pins : 0
+Total memory bits : 36,864 / 1,677,312 ( 2 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

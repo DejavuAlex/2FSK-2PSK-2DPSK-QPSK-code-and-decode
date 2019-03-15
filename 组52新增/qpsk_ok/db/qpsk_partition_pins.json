@@ -1,0 +1,77 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "NRZ1",
+					"strict" : false
+				},
+				{
+					"name" : "NRZ2",
+					"strict" : false
+				},
+				{
+					"name" : "qpsk[0]",
+					"strict" : false
+				},
+				{
+					"name" : "qpsk[1]",
+					"strict" : false
+				},
+				{
+					"name" : "qpsk[2]",
+					"strict" : false
+				},
+				{
+					"name" : "qpsk[3]",
+					"strict" : false
+				},
+				{
+					"name" : "qpsk[4]",
+					"strict" : false
+				},
+				{
+					"name" : "qpsk[5]",
+					"strict" : false
+				},
+				{
+					"name" : "qpsk[6]",
+					"strict" : false
+				},
+				{
+					"name" : "qpsk[7]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_DA",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

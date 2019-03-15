@@ -1,0 +1,85 @@
+// Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench template that is freely editable to  
+// suit user's needs .Comments are provided in each section to help the user    
+// fill out necessary details.                                                  
+// *****************************************************************************
+// Generated on "02/24/2019 14:01:15"
+                                                                                
+// Verilog Test Bench template for design : QPSKcodedecode
+// 
+// Simulation tool : ModelSim-Altera (Verilog)
+// 
+
+`timescale 1 ps/ 1 ps
+module QPSKcodedecode_vlg_tst();
+// constants                                           
+// general purpose registers
+reg eachvec;
+// test vector input registers
+reg [1:0] ast_sink_error;
+reg clk;
+reg en;
+reg reset_n;
+reg rst;
+reg sel;
+// wires                                               
+wire data_0;
+wire data_1;
+wire data_in;
+wire data_out;
+wire [11:0]  fcos_out;
+wire [34:0]  FIR1;
+wire [34:0]  FIR2;
+wire [11:0]  fsin_o;
+wire [11:0]  fsin_out;
+wire [23:0]  LPM1;
+wire [23:0]  LPM2;
+
+// assign statements (if any)                          
+QPSKcodedecode i1 (
+// port map - connection between master ports and signals/registers   
+	.ast_sink_error(ast_sink_error),
+	.clk(clk),
+	.data_0(data_0),
+	.data_1(data_1),
+	.data_in(data_in),
+	.data_out(data_out),
+	.en(en),
+	.fcos_out(fcos_out),
+	.FIR1(FIR1),
+	.FIR2(FIR2),
+	.fsin_o(fsin_o),
+	.fsin_out(fsin_out),
+	.LPM1(LPM1),
+	.LPM2(LPM2),
+	.reset_n(reset_n),
+	.rst(rst),
+	.sel(sel)
+);
+initial                                                
+begin                                                  
+clk=0;                         
+end                                                    
+always                                                 
+// optional sensitivity list                           
+// @(event1 or event2 or .... eventn)                  
+begin                                                  
+#10 clk=~clk;                                         
+end                                                    
+endmodule
+

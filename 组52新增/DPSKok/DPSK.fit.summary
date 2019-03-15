@@ -1,0 +1,18 @@
+Fitter Status : Successful - Fri Mar 01 18:59:04 2019
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Revision Name : DPSK
+Top-level Entity Name : DPSK
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 955 / 49,760 ( 2 % )
+    Total combinational functions : 587 / 49,760 ( 1 % )
+    Dedicated logic registers : 766 / 49,760 ( 2 % )
+Total registers : 766
+Total pins : 189 / 360 ( 53 % )
+Total virtual pins : 0
+Total memory bits : 43,008 / 1,677,312 ( 3 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

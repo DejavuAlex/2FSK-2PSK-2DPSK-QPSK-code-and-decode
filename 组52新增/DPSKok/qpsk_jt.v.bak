@@ -1,0 +1,21 @@
+module qpsk_jt(
+    input clk,
+    input [7:0]sine,
+	 input [7:0]cos,
+	 input [7:0]seq,
+	 output seq_jt
+	);
+wire clk_2;
+always@(posedge clk)
+begin
+ clk_2<=~clk_2;
+ seq
+end
+
+
+
+always@(posedge clk_2)
+
+
+	
+	 

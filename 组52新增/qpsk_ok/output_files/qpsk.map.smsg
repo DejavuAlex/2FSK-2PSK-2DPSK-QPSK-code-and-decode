@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at NRZ.v(14): always construct contains both blocking and non-blocking assignments File: E:/Communication/Quartus/Work/qpsk_test/NRZ.v Line: 14
+Warning (10268): Verilog HDL information at NRZ1.v(14): always construct contains both blocking and non-blocking assignments File: E:/Communication/Quartus/Work/qpsk_test/NRZ1.v Line: 14

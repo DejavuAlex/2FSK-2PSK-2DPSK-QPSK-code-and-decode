@@ -1,0 +1,221 @@
+|qpsk
+clk => clk.IN4
+reset_n => reset_n.IN6
+NRZ1 <= SYNTHESIZED_WIRE_1.DB_MAX_OUTPUT_PORT_TYPE
+NRZ2 <= SYNTHESIZED_WIRE_2.DB_MAX_OUTPUT_PORT_TYPE
+qpsk[0] <= LookUpTable:b2v_inst4.data
+qpsk[1] <= LookUpTable:b2v_inst4.data
+qpsk[2] <= LookUpTable:b2v_inst4.data
+qpsk[3] <= LookUpTable:b2v_inst4.data
+qpsk[4] <= LookUpTable:b2v_inst4.data
+qpsk[5] <= LookUpTable:b2v_inst4.data
+qpsk[6] <= LookUpTable:b2v_inst4.data
+qpsk[7] <= LookUpTable:b2v_inst4.data
+PD <= <GND>
+clk_DA <= clk.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|qpsk|counter:b2v_inst
+clk => clk1~reg0.CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => count[4].CLK
+clk => count[5].CLK
+clk => count[6].CLK
+clk => count[7].CLK
+reset_n => clk1~reg0.ACLR
+reset_n => count[0].ACLR
+reset_n => count[1].ACLR
+reset_n => count[2].ACLR
+reset_n => count[3].ACLR
+reset_n => count[4].ACLR
+reset_n => count[5].ACLR
+reset_n => count[6].ACLR
+reset_n => count[7].ACLR
+clk1 <= clk1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|qpsk|NRZ:b2v_inst1
+clk1 => c4.CLK
+clk1 => c3.CLK
+clk1 => c2.CLK
+clk1 => c1.CLK
+clk1 => NRZ~reg0.CLK
+reset_n => c4.ACLR
+reset_n => c3.ACLR
+reset_n => c2.ACLR
+reset_n => c1.PRESET
+reset_n => NRZ~reg0.ENA
+NRZ <= NRZ~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|qpsk|Controller:b2v_inst2
+clk => address_data[0].CLK
+clk => address_data[1].CLK
+clk => address_data[2].CLK
+clk => address_data[3].CLK
+clk => address_data[4].CLK
+clk => address_data[5].CLK
+clk => address_data[6].CLK
+clk => address_data[7].CLK
+clk => address_data4[0].CLK
+clk => address_data4[1].CLK
+clk => address_data4[2].CLK
+clk => address_data4[3].CLK
+clk => address_data4[4].CLK
+clk => address_data4[5].CLK
+clk => address_data4[6].CLK
+clk => address_data4[7].CLK
+clk => address_data4[8].CLK
+clk => address_data3[0].CLK
+clk => address_data3[1].CLK
+clk => address_data3[2].CLK
+clk => address_data3[3].CLK
+clk => address_data3[4].CLK
+clk => address_data3[5].CLK
+clk => address_data3[6].CLK
+clk => address_data3[7].CLK
+clk => address_data3[8].CLK
+clk => address_data2[0].CLK
+clk => address_data2[1].CLK
+clk => address_data2[2].CLK
+clk => address_data2[3].CLK
+clk => address_data2[4].CLK
+clk => address_data2[5].CLK
+clk => address_data2[6].CLK
+clk => address_data2[7].CLK
+clk => address_data2[8].CLK
+clk => address_data1[0].CLK
+clk => address_data1[1].CLK
+clk => address_data1[2].CLK
+clk => address_data1[3].CLK
+clk => address_data1[4].CLK
+clk => address_data1[5].CLK
+clk => address_data1[6].CLK
+clk => address_data1[7].CLK
+clk => address_data1[8].CLK
+clk => clk_DA.DATAIN
+reset_n => address_data4[0].PRESET
+reset_n => address_data4[1].PRESET
+reset_n => address_data4[2].PRESET
+reset_n => address_data4[3].PRESET
+reset_n => address_data4[4].PRESET
+reset_n => address_data4[5].PRESET
+reset_n => address_data4[6].ACLR
+reset_n => address_data4[7].PRESET
+reset_n => address_data4[8].ACLR
+reset_n => address_data3[0].PRESET
+reset_n => address_data3[1].PRESET
+reset_n => address_data3[2].PRESET
+reset_n => address_data3[3].PRESET
+reset_n => address_data3[4].PRESET
+reset_n => address_data3[5].PRESET
+reset_n => address_data3[6].PRESET
+reset_n => address_data3[7].ACLR
+reset_n => address_data3[8].ACLR
+reset_n => address_data2[0].PRESET
+reset_n => address_data2[1].PRESET
+reset_n => address_data2[2].PRESET
+reset_n => address_data2[3].PRESET
+reset_n => address_data2[4].PRESET
+reset_n => address_data2[5].PRESET
+reset_n => address_data2[6].ACLR
+reset_n => address_data2[7].ACLR
+reset_n => address_data2[8].ACLR
+reset_n => address_data1[0].ACLR
+reset_n => address_data1[1].ACLR
+reset_n => address_data1[2].ACLR
+reset_n => address_data1[3].ACLR
+reset_n => address_data1[4].ACLR
+reset_n => address_data1[5].ACLR
+reset_n => address_data1[6].ACLR
+reset_n => address_data1[7].ACLR
+reset_n => address_data1[8].ACLR
+reset_n => address_data[0].ACLR
+reset_n => address_data[1].ACLR
+reset_n => address_data[2].ACLR
+reset_n => address_data[3].ACLR
+reset_n => address_data[4].ACLR
+reset_n => address_data[5].ACLR
+reset_n => address_data[6].ACLR
+reset_n => address_data[7].ACLR
+dataoutm1 => always1.IN0
+dataoutm1 => always1.IN0
+dataoutm1 => always1.IN0
+dataoutm1 => always1.IN0
+dataoutm2 => always1.IN1
+dataoutm2 => always1.IN1
+dataoutm2 => always1.IN1
+dataoutm2 => always1.IN1
+address[0] <= address_data[0].DB_MAX_OUTPUT_PORT_TYPE
+address[1] <= address_data[1].DB_MAX_OUTPUT_PORT_TYPE
+address[2] <= address_data[2].DB_MAX_OUTPUT_PORT_TYPE
+address[3] <= address_data[3].DB_MAX_OUTPUT_PORT_TYPE
+address[4] <= address_data[4].DB_MAX_OUTPUT_PORT_TYPE
+address[5] <= address_data[5].DB_MAX_OUTPUT_PORT_TYPE
+address[6] <= address_data[6].DB_MAX_OUTPUT_PORT_TYPE
+address[7] <= address_data[7].DB_MAX_OUTPUT_PORT_TYPE
+clk_DA <= clk.DB_MAX_OUTPUT_PORT_TYPE
+blank_DA_n <= <VCC>
+sync_DA_n <= <VCC>
+
+
+|qpsk|LookUpTable:b2v_inst4
+clk => ~NO_FANOUT~
+reset_n => ~NO_FANOUT~
+address[0] => Ram0.RADDR
+address[1] => Ram0.RADDR1
+address[2] => Ram0.RADDR2
+address[3] => Ram0.RADDR3
+address[4] => Ram0.RADDR4
+address[5] => Ram0.RADDR5
+address[6] => Ram0.RADDR6
+address[7] => Ram0.RADDR7
+data[0] <= Ram0.DATAOUT
+data[1] <= Ram0.DATAOUT1
+data[2] <= Ram0.DATAOUT2
+data[3] <= Ram0.DATAOUT3
+data[4] <= Ram0.DATAOUT4
+data[5] <= Ram0.DATAOUT5
+data[6] <= Ram0.DATAOUT6
+data[7] <= Ram0.DATAOUT7
+
+
+|qpsk|counter1:b2v_inst5
+clk => clk1~reg0.CLK
+clk => count[0].CLK
+clk => count[1].CLK
+clk => count[2].CLK
+clk => count[3].CLK
+clk => count[4].CLK
+clk => count[5].CLK
+clk => count[6].CLK
+clk => count[7].CLK
+reset_n => clk1~reg0.ACLR
+reset_n => count[0].ACLR
+reset_n => count[1].ACLR
+reset_n => count[2].ACLR
+reset_n => count[3].ACLR
+reset_n => count[4].ACLR
+reset_n => count[5].ACLR
+reset_n => count[6].ACLR
+reset_n => count[7].ACLR
+clk1 <= clk1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|qpsk|NRZ1:b2v_inst6
+clk1 => c4.CLK
+clk1 => c3.CLK
+clk1 => c2.CLK
+clk1 => c1.CLK
+clk1 => NRZ~reg0.CLK
+reset_n => c4.ACLR
+reset_n => c3.ACLR
+reset_n => c2.ACLR
+reset_n => c1.PRESET
+reset_n => NRZ~reg0.ENA
+NRZ <= NRZ~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

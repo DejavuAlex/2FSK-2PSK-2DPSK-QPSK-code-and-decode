@@ -1,0 +1,32 @@
+//产生伪随机NRZ
+module NRZ(clk1,reset_n,NRZ);
+
+input      clk1; 
+input      reset_n;
+output     reg NRZ;
+
+reg c1,c2,c3,c4;
+initial c1<=1;
+initial c2<=0;
+initial c3<=0;
+initial c4<=0;
+
+always @(posedge clk1 or negedge reset_n )
+begin
+if(!reset_n)begin
+  c1<=1;
+  c2<=0;
+  c3<=0;
+  c4<=0;
+	end
+else
+  begin
+		c1<=c3^c4;
+		c2<=c1;
+		c3<=c2;
+		c4<=c3;
+		NRZ=c4;
+	end
+end
+
+endmodule

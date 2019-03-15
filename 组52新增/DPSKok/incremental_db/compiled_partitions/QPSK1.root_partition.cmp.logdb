@@ -1,0 +1,4 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,qpsk_jt:QPSK_JT|mac:MACcos|altmult_accum:altmult_accum_component|mult_accum_3en2:auto_generated|ded_mult_ph71:ded_mult1|mac_out4,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,qpsk_jt:QPSK_JT|mac:MACsin|altmult_accum:altmult_accum_component|mult_accum_3en2:auto_generated|ded_mult_ph71:ded_mult1|mac_out4,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,qpsk_jt:QPSK_JT|mac:MACcos|altmult_accum:altmult_accum_component|mult_accum_3en2:auto_generated|ded_mult_ph71:ded_mult1|mac_mult3,

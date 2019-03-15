@@ -1,0 +1,273 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sine[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sine[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sine[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sine[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sine[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sine[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sine[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sine[7]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[0]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[1]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[2]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[3]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[4]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[5]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[6]",
+					"strict" : false
+				},
+				{
+					"name" : "cos[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out_tz[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out_tz[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out_tz[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out_tz[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out_tz[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out_tz[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out_tz[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out_tz[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out_jt",
+					"strict" : false
+				},
+				{
+					"name" : "seq",
+					"strict" : false
+				},
+				{
+					"name" : "data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[8]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[9]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[10]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[11]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[12]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[13]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[14]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[15]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[16]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[17]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[18]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[19]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[20]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[21]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[22]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[23]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[24]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[25]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[26]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[27]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[28]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[29]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[30]",
+					"strict" : false
+				},
+				{
+					"name" : "sumcos[31]",
+					"strict" : false
+				},
+				{
+					"name" : "MAX10_CLK1_50",
+					"strict" : false
+				},
+				{
+					"name" : "KEY[0]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

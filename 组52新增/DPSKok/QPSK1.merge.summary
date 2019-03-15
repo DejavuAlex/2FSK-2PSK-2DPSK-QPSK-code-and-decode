@@ -1,0 +1,16 @@
+Partition Merge Status : Successful - Tue Feb 27 13:23:26 2018
+Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
+Revision Name : QPSK1
+Top-level Entity Name : QPSK1
+Family : MAX 10
+Total logic elements : 769
+    Total combinational functions : 485
+    Dedicated logic registers : 582
+Total registers : 582
+Total pins : 165
+Total virtual pins : 0
+Total memory bits : 18,560
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

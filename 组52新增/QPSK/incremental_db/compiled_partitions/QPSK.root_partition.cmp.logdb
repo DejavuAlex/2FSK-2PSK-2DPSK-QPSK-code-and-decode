@@ -1,0 +1,4 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,LPM:inst4|lpm_mult:lpm_mult_component|mult_7qm:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,LPM:inst9|lpm_mult:lpm_mult_component|mult_7qm:auto_generated|mac_out2,
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,LPM:inst4|lpm_mult:lpm_mult_component|mult_7qm:auto_generated|mac_mult1,

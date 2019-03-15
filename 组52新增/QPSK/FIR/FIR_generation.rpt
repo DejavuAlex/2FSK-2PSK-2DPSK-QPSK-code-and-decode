@@ -1,0 +1,31 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate E:\Communication\Quartus\Work\QPSK\FIR.qsys --block-symbol-file --output-directory=E:\Communication\Quartus\Work\QPSK\FIR --family="MAX 10" --part=10M08DAF484C8G
+Progress: Loading QPSK/FIR.qsys
+Progress: Reading input file
+Progress: Adding fir_compiler_ii_0 [altera_fir_compiler_ii 16.0]
+Progress: Parameterizing module fir_compiler_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: FIR.fir_compiler_ii_0: PhysChanIn 1, PhysChanOut 1, ChansPerPhyIn 1, ChansPerPhyOut 1, OutputFullBitWidth 35, Bankcount 1, CoefBitWidth 5
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate E:\Communication\Quartus\Work\QPSK\FIR.qsys --synthesis=VERILOG --output-directory=E:\Communication\Quartus\Work\QPSK\FIR\synthesis --family="MAX 10" --part=10M08DAF484C8G
+Progress: Loading QPSK/FIR.qsys
+Progress: Reading input file
+Progress: Adding fir_compiler_ii_0 [altera_fir_compiler_ii 16.0]
+Progress: Parameterizing module fir_compiler_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: FIR.fir_compiler_ii_0: PhysChanIn 1, PhysChanOut 1, ChansPerPhyIn 1, ChansPerPhyOut 1, OutputFullBitWidth 35, Bankcount 1, CoefBitWidth 5
+Info: FIR: Generating FIR "FIR" for QUARTUS_SYNTH
+Info: fir_compiler_ii_0: PhysChanIn 1, PhysChanOut 1, ChansPerPhyIn 1, ChansPerPhyOut 1, OutputFullBitWidth 35, Bankcount 1, Latency 19, CoefBitWidth 5
+Info: fir_compiler_ii_0: "FIR" instantiated altera_fir_compiler_ii "fir_compiler_ii_0"
+Info: FIR: Done "FIR" with 2 modules, 13 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

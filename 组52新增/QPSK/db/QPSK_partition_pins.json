@@ -1,0 +1,377 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "data_in",
+					"strict" : false
+				},
+				{
+					"name" : "data_0",
+					"strict" : false
+				},
+				{
+					"name" : "data_1",
+					"strict" : false
+				},
+				{
+					"name" : "fcos_out[11]",
+					"strict" : false
+				},
+				{
+					"name" : "fcos_out[10]",
+					"strict" : false
+				},
+				{
+					"name" : "fcos_out[9]",
+					"strict" : false
+				},
+				{
+					"name" : "fcos_out[8]",
+					"strict" : false
+				},
+				{
+					"name" : "fcos_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "fcos_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "fcos_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "fcos_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "fcos_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "fcos_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "fcos_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "fcos_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_o[11]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_o[10]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_o[9]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_o[8]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_o[7]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_o[6]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_o[5]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_o[4]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_o[3]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_o[2]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_o[1]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_o[0]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_out[11]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_out[10]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_out[9]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_out[8]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "fsin_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[23]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[22]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[21]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[20]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[19]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[18]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[17]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[16]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[15]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[14]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[13]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[12]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[11]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[10]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[9]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[8]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[23]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[22]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[21]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[20]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[19]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[18]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[17]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[16]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[14]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[13]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[12]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[11]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[10]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[9]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[8]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[7]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LPM2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sel",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "en",
+					"strict" : false
+				},
+				{
+					"name" : "reset_n",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

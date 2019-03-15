@@ -1,0 +1,56 @@
+# Reading E:/Communication/modelsim_ase/tcl/vsim/pref.tcl
+# do QPSK_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work gate_work 
+# Modifying E:/Communication/modelsim_ase/win32aloem/modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+. {QPSK.vo}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 22:21:00 on Feb 26,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." QPSK.vo 
+# -- Compiling module QPSKcodedecode
+# 
+# Top level modules:
+# 	QPSKcodedecode
+# End time: 22:21:03 on Feb 26,2019, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/QPSK/simulation/modelsim {E:/Communication/Quartus/Work/QPSK/simulation/modelsim/QPSKcodedecode.vt}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 22:21:04 on Feb 26,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/QPSK/simulation/modelsim" E:/Communication/Quartus/Work/QPSK/simulation/modelsim/QPSKcodedecode.vt 
+# -- Compiling module QPSKcodedecode_vlg_tst
+# 
+# Top level modules:
+# 	QPSKcodedecode_vlg_tst
+# End time: 22:21:04 on Feb 26,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs="+acc"  QPSKcodedecode_vlg_tst
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L gate_work -L work -voptargs=""+acc"" QPSKcodedecode_vlg_tst 
+# Start time: 22:21:05 on Feb 26,2019
+# Loading work.QPSKcodedecode_vlg_tst
+# Loading work.QPSKcodedecode
+# Loading altera_ver.dffeas
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Warning: (vsim-3017) QPSK.vo(298894): [TFMPC] - Too few port connections. Expected 8, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /QPSKcodedecode_vlg_tst/i1/\~QUARTUS_CREATED_ADC1~  File: nofile
+# ** Warning: (vsim-3722) QPSK.vo(298894): [TFMPC] - Missing connection for port 'clk_dft'.
+# ** Warning: Design size of 29446 statements exceeds ModelSim Altera Starter recommended capacity.
+# Expect performance to be adversely affected.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Break at an unknown location
+# End time: 22:48:41 on Feb 26,2019, Elapsed time: 0:27:36
+# Errors: 0, Warnings: 3

@@ -1,0 +1,114 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 448 280)
+	(text "FIR" (rect 183 -1 221 17)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 200 41 214)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "ast_sink_data[23..0]" (rect 0 0 188 16)(font "Arial" (font_size 8)))
+		(text "ast_sink_data[23..0]" (rect 8 48 196 64)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 144 72)(line_width 3))
+	)
+	(port
+		(pt 0 88)
+		(input)
+		(text "ast_sink_valid" (rect 0 0 132 16)(font "Arial" (font_size 8)))
+		(text "ast_sink_valid" (rect 8 88 140 104)(font "Arial" (font_size 8)))
+		(line (pt 0 88)(pt 144 88))
+	)
+	(port
+		(pt 0 104)
+		(input)
+		(text "ast_sink_error[1..0]" (rect 0 0 188 16)(font "Arial" (font_size 8)))
+		(text "ast_sink_error[1..0]" (rect 16 112 204 128)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 144 104)(line_width 3))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "clk" (rect 0 0 28 16)(font "Arial" (font_size 8)))
+		(text "clk" (rect 8 144 36 160)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 144 144))
+	)
+	(port
+		(pt 0 184)
+		(input)
+		(text "reset_n" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "reset_n" (rect 40 160 106 176)(font "Arial" (font_size 8)))
+		(line (pt 0 184)(pt 144 184))
+	)
+	(port
+		(pt 384 72)
+		(output)
+		(text "ast_source_data[34..0]" (rect 0 0 207 16)(font "Arial" (font_size 8)))
+		(text "ast_source_data[34..0]" (rect 303 56 478 72)(font "Arial" (font_size 8)))
+		(line (pt 384 72)(pt 224 72)(line_width 3))
+	)
+	(port
+		(pt 384 88)
+		(output)
+		(text "ast_source_valid" (rect 0 0 151 16)(font "Arial" (font_size 8)))
+		(text "ast_source_valid" (rect 224 72 351 88)(font "Arial" (font_size 8)))
+		(line (pt 384 88)(pt 224 88))
+	)
+	(port
+		(pt 384 104)
+		(output)
+		(text "ast_source_error[1..0]" (rect 0 0 207 16)(font "Arial" (font_size 8)))
+		(text "ast_source_error[1..0]" (rect 207 112 382 128)(font "Arial" (font_size 8)))
+		(line (pt 384 104)(pt 224 104)(line_width 3))
+	)
+	(drawing
+		(text "avalon_streaming_sink" (rect 2 19 225 36)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "data" (rect 149 67 182 81)(font "Arial" (color 0 0 0)))
+		(text "valid" (rect 149 83 190 97)(font "Arial" (color 0 0 0)))
+		(text "error" (rect 149 99 190 113)(font "Arial" (color 0 0 0)))
+		(text "avalon_streaming_source" (rect 256 19 500 36)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "data" (rect 203 67 236 81)(font "Arial" (color 0 0 0)))
+		(text "valid" (rect 201 83 242 97)(font "Arial" (color 0 0 0)))
+		(text "error" (rect 199 99 240 113)(font "Arial" (color 0 0 0)))
+		(text "clk" (rect 129 115 160 132)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 149 139 173 153)(font "Arial" (color 0 0 0)))
+		(text "rst" (rect 129 155 160 172)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 149 179 206 193)(font "Arial" (color 0 0 0)))
+		(text " FIR " (rect 364 200 405 214)(font "Arial" ))
+		(line (pt 144 32)(pt 224 32))
+		(line (pt 224 32)(pt 224 200))
+		(line (pt 144 200)(pt 224 200))
+		(line (pt 144 32)(pt 144 200))
+		(line (pt 145 52)(pt 145 108))
+		(line (pt 146 52)(pt 146 108))
+		(line (pt 223 52)(pt 223 108))
+		(line (pt 222 52)(pt 222 108))
+		(line (pt 145 124)(pt 145 148))
+		(line (pt 146 124)(pt 146 148))
+		(line (pt 145 164)(pt 145 188))
+		(line (pt 146 164)(pt 146 188))
+		(line (pt 0 0)(pt 384 0))
+		(line (pt 384 0)(pt 384 216))
+		(line (pt 0 216)(pt 384 216))
+		(line (pt 0 0)(pt 0 216))
+	)
+)

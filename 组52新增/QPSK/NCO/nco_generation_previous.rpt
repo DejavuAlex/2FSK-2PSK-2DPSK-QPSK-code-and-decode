@@ -1,0 +1,64 @@
+Info: Starting: Create simulation model
+Info: qsys-generate E:\Communication\Quartus\Work\QPSK\nco.qsys --simulation=VERILOG --allow-mixed-language-simulation --output-directory=E:\Communication\Quartus\Work\QPSK\nco\simulation --family="MAX 10" --part=10M08DAF484C8G
+Progress: Loading QPSK/nco.qsys
+Progress: Reading input file
+Progress: Adding nco_ii_0 [altera_nco_ii 16.0]
+Progress: Parameterizing module nco_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nco: Generating nco "nco" for SIM_VERILOG
+Info: nco_ii_0: "nco" instantiated altera_nco_ii "nco_ii_0"
+Info: nco: Done "nco" with 2 modules, 26 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=E:\Communication\Quartus\Work\QPSK\nco\nco.spd --output-directory=E:/Communication/Quartus/Work/QPSK/nco/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=E:\Communication\Quartus\Work\QPSK\nco\nco.spd --output-directory=E:/Communication/Quartus/Work/QPSK/nco/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in E:/Communication/Quartus/Work/QPSK/nco/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in E:/Communication/Quartus/Work/QPSK/nco/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in E:/Communication/Quartus/Work/QPSK/nco/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in E:/Communication/Quartus/Work/QPSK/nco/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in E:/Communication/Quartus/Work/QPSK/nco/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under E:/Communication/Quartus/Work/QPSK/nco/simulation/.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate E:\Communication\Quartus\Work\QPSK\nco.qsys --block-symbol-file --output-directory=E:\Communication\Quartus\Work\QPSK\nco --family="MAX 10" --part=10M08DAF484C8G
+Progress: Loading QPSK/nco.qsys
+Progress: Reading input file
+Progress: Adding nco_ii_0 [altera_nco_ii 16.0]
+Progress: Parameterizing module nco_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate E:\Communication\Quartus\Work\QPSK\nco.qsys --synthesis=VERILOG --greybox --output-directory=E:\Communication\Quartus\Work\QPSK\nco\synthesis --family="MAX 10" --part=10M08DAF484C8G
+Progress: Loading QPSK/nco.qsys
+Progress: Reading input file
+Progress: Adding nco_ii_0 [altera_nco_ii 16.0]
+Progress: Parameterizing module nco_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: nco: Generating nco "nco" for QUARTUS_SYNTH
+Info: nco_ii_0: "nco" instantiated altera_nco_ii "nco_ii_0"
+Info: nco: Done "nco" with 2 modules, 16 files
+Info: Generating third-party timing and resource estimation model ...
+Info: Done generating third-party timing and resource estimation model.
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

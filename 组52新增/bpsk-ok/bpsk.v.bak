@@ -1,0 +1,61 @@
+
+module bsk(
+	clk,
+	reset_n,
+	clk_DA,
+	blank_DA_n,
+	sync_DA_n,
+	dataout,
+	dm_out
+);
+
+input clk;
+input reset_n;
+
+output clk_DA;
+output blank_DA_n;
+output sync_DA_n;
+output [7:0] dataout;
+output [7:0] dm_out;
+
+  
+
+
+wire [6:0] address;
+wire dataoutm;
+wire clk1;
+wire [7:0] dataout;
+counter COUNTER(
+		.clk (clk),
+		.reset_n (reset_n),
+		.count (count),
+		.clk1 (clk1)
+		);
+PN_Seq PN_SEQ(
+		.clk (clk),
+		.reset_n (reset_n),
+		.dataoutm (dataoutm),
+		);
+Controller CONTROLLER(
+		.clk (clk),
+		.reset_n (reset_n),
+		.dataoutm (dataoutm),
+		.address (address),
+		.clk_DA (clk_DA),
+		.blank_DA_n(blank_DA_n),
+		.sync_DA_n(sync_DA_n)
+		);
+LookUpTable LOOKUPTABLE(
+		.clk (clk),
+		.reset_n (reset_n),
+		.address (address),
+		.dataout (dataout)
+		);
+depsk depsk(
+		.clk (clk),
+		.reset_n (reset_n),
+		.data (dataout),
+		.dataout (dm_out)
+		);
+endmodule
+		

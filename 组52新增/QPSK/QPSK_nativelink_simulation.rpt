@@ -1,0 +1,21 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  max10
+Quartus root          :  e:/communication/quartus/bin64/
+Quartus sim root      :  e:/communication/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  QPSK.vo
+Sim SDF file          :  QPSK__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script e:/communication/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File QPSK_run_msim_gate_verilog.do already exists - backing up current file as QPSK_run_msim_gate_verilog.do.bak1
+Info: Spawning ModelSim-Altera Simulation software 

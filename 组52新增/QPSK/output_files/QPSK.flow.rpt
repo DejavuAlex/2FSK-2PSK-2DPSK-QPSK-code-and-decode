@@ -1,0 +1,179 @@
+Flow report for QPSK
+Fri Mar 01 19:42:15 2019
+Quartus Prime Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Flow Summary                                                                         ;
++------------------------------------+-------------------------------------------------+
+; Flow Status                        ; Flow Failed - Fri Mar 01 19:42:15 2019          ;
+; Quartus Prime Version              ; 16.0.0 Build 211 04/27/2016 SJ Standard Edition ;
+; Revision Name                      ; QPSK                                            ;
+; Top-level Entity Name              ; QPSKcodedecode                                  ;
+; Family                             ; MAX 10                                          ;
+; Device                             ; 10M50DAF484I7G                                  ;
+; Timing Models                      ; Final                                           ;
+; Total logic elements               ; N/A until Partition Merge                       ;
+;     Total combinational functions  ; N/A until Partition Merge                       ;
+;     Dedicated logic registers      ; N/A until Partition Merge                       ;
+; Total registers                    ; N/A until Partition Merge                       ;
+; Total pins                         ; N/A until Partition Merge                       ;
+; Total virtual pins                 ; N/A until Partition Merge                       ;
+; Total memory bits                  ; N/A until Partition Merge                       ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                       ;
+; Total PLLs                         ; N/A until Partition Merge                       ;
+; UFM blocks                         ; N/A until Partition Merge                       ;
+; ADC blocks                         ; N/A until Partition Merge                       ;
++------------------------------------+-------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 03/01/2019 19:41:59 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; QPSK                ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                                                            ;
++--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+----------------+------------------------+
+; Assignment Name                      ; Value                                                                                                                                                      ; Default Value ; Entity Name    ; Section Id             ;
++--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+----------------+------------------------+
+; COMPILER_SIGNATURE_ID                ; 93383151670333.155144051904240                                                                                                                             ; --            ; --             ; --                     ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                                                                         ; --            ; --             ; QPSKcodedecode_vlg_tst ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; QPSKcodedecode_vlg_tst                                                                                                                                     ; --            ; --             ; eda_simulation         ;
+; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                                                                                                                                                ; --            ; --             ; eda_simulation         ;
+; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)                                                                                                                                  ; <None>        ; --             ; --                     ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                                                                                                                            ; --            ; --             ; eda_simulation         ;
+; EDA_TEST_BENCH_FILE                  ; simulation/modelsim/QPSKcodedecode.vt                                                                                                                      ; --            ; --             ; QPSKcodedecode_vlg_tst ;
+; EDA_TEST_BENCH_MODULE_NAME           ; QPSKcodedecode_vlg_tst                                                                                                                                     ; --            ; --             ; QPSKcodedecode_vlg_tst ;
+; EDA_TEST_BENCH_NAME                  ; QPSKcodedecode_vlg_tst                                                                                                                                     ; --            ; --             ; eda_simulation         ;
+; EDA_TIME_SCALE                       ; 1 ps                                                                                                                                                       ; --            ; --             ; eda_simulation         ;
+; ENABLE_SIGNALTAP                     ; On                                                                                                                                                         ; --            ; --             ; --                     ;
+; MAX_CORE_JUNCTION_TEMP               ; 100                                                                                                                                                        ; --            ; --             ; --                     ;
+; MIN_CORE_JUNCTION_TEMP               ; -40                                                                                                                                                        ; --            ; --             ; --                     ;
+; MISC_FILE                            ; NCO/synthesis/../nco.cmp                                                                                                                                   ; --            ; --             ; --                     ;
+; MISC_FILE                            ; NCO/synthesis/../../nco.qsys                                                                                                                               ; --            ; --             ; --                     ;
+; MISC_FILE                            ; FIR/synthesis/../FIR.cmp                                                                                                                                   ; --            ; --             ; --                     ;
+; MISC_FILE                            ; FIR/synthesis/../../FIR.qsys                                                                                                                               ; --            ; --             ; --                     ;
+; MISC_FILE                            ; LPM.bsf                                                                                                                                                    ; --            ; --             ; --                     ;
+; MISC_FILE                            ; LPM_inst.v                                                                                                                                                 ; --            ; --             ; --                     ;
+; MISC_FILE                            ; LPM_bb.v                                                                                                                                                   ; --            ; --             ; --                     ;
+; MISC_FILE                            ; LPM.inc                                                                                                                                                    ; --            ; --             ; --                     ;
+; MISC_FILE                            ; LPM.cmp                                                                                                                                                    ; --            ; --             ; --                     ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                                                                                                          ; --            ; --             ; --                     ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS       ; Half Signal Swing                                                                                                                                          ; --            ; --             ; --                     ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                                                                                                                 ; --            ; --             ; --                     ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS      ; Half Vccio                                                                                                                                                 ; --            ; --             ; --                     ;
+; PARTITION_COLOR                      ; 16764057                                                                                                                                                   ; --            ; QPSKcodedecode ; Top                    ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; PLACEMENT_AND_ROUTING                                                                                                                                      ; --            ; QPSKcodedecode ; Top                    ;
+; PARTITION_NETLIST_TYPE               ; SOURCE                                                                                                                                                     ; --            ; QPSKcodedecode ; Top                    ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                                                                                                                        ; --            ; --             ; --                     ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                                                                                                      ; --            ; --             ; --                     ;
+; PROJECT_OUTPUT_DIRECTORY             ; output_files                                                                                                                                               ; --            ; --             ; --                     ;
+; SLD_FILE                             ; NCO/synthesis/nco.debuginfo                                                                                                                                ; --            ; --             ; --                     ;
+; SLD_FILE                             ; FIR/synthesis/FIR.debuginfo                                                                                                                                ; --            ; --             ; --                     ;
+; SLD_FILE                             ; db/stp5_auto_stripped.stp                                                                                                                                  ; --            ; --             ; --                     ;
+; SLD_INFO                             ; QSYS_NAME FIR HAS_SOPCINFO 1 GENERATION_ID 1550731608                                                                                                      ; --            ; FIR            ; --                     ;
+; SLD_INFO                             ; QSYS_NAME nco HAS_SOPCINFO 1 GENERATION_ID 1551020327                                                                                                      ; --            ; nco            ; --                     ;
+; SLD_NODE_CREATOR_ID                  ; 110                                                                                                                                                        ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_ENTITY_NAME                 ; sld_signaltap                                                                                                                                              ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_RAM_BLOCK_TYPE=AUTO                                                                                                                                    ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_DATA_BITS=38                                                                                                                                           ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_BITS=38                                                                                                                                        ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STORAGE_QUALIFIER_BITS=38                                                                                                                              ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_NODE_INFO=805334528                                                                                                                                    ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_POWER_UP_TRIGGER=0                                                                                                                                     ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK_LENGTH=135                                                                                                                              ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                                                                                                              ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SEGMENT_SIZE=128                                                                                                                                       ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ATTRIBUTE_MEM_MODE=OFF                                                                                                                                 ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_FLOW_USE_GENERATED=0                                                                                                                             ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_BITS=11                                                                                                                                          ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_BUFFER_FULL_STOP=1                                                                                                                                     ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_CURRENT_RESOURCE_WIDTH=1                                                                                                                               ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INCREMENTAL_ROUTING=1                                                                                                                                  ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL=1                                                                                                                                        ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SAMPLE_DEPTH=128                                                                                                                                       ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_IN_ENABLED=0                                                                                                                                   ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_PIPELINE=0                                                                                                                                     ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_RAM_PIPELINE=0                                                                                                                                         ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_COUNTER_PIPELINE=0                                                                                                                                     ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,                                                                                                                       ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL_PIPELINE=1                                                                                                                               ; --            ; --             ; auto_signaltap_0       ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ENABLE_ADVANCED_TRIGGER=0                                                                                                                              ; --            ; --             ; auto_signaltap_0       ;
+; SOPCINFO_FILE                        ; NCO/synthesis/../../nco.sopcinfo                                                                                                                           ; --            ; --             ; --                     ;
+; SOPCINFO_FILE                        ; FIR/synthesis/../../FIR.sopcinfo                                                                                                                           ; --            ; --             ; --                     ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                                                                                                                         ; --            ; --             ; --                     ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                                                                                                                         ; --            ; --             ; --                     ;
+; TOP_LEVEL_ENTITY                     ; QPSKcodedecode                                                                                                                                             ; QPSK          ; --             ; --                     ;
+; USE_SIGNALTAP_FILE                   ; stp5.stp                                                                                                                                                   ; --            ; --             ; --                     ;
++--------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+----------------+------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:17     ; 1.0                     ; 5058 MB             ; 00:00:30                           ;
+; Total                ; 00:00:17     ; --                      ; --                  ; 00:00:30                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++-----------------------------------------------------------------------------------+
+; Flow OS Summary                                                                   ;
++----------------------+------------------+-----------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++----------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis ; LAPTOP-DVIFVGCL  ; Windows 8 ; 6.2        ; x86_64         ;
++----------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off QPSK -c QPSK
+
+
+

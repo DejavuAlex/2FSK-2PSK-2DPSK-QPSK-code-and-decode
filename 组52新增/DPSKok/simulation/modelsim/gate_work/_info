@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Communication/Quartus/Work/DPSK/simulation/modelsim
+vDPSK
+Z1 !s110 1551093872
+!i10b 1
+!s100 a^2oXg^3>WEO::S13KYlG2
+I]99cX1BJN8]E[Nb0G0GM61
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1551092852
+8DPSK.vo
+FDPSK.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z4 !s108 1551093872.000000
+!s107 DPSK.vo|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+.|DPSK.vo|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+n@d@p@s@k
+vDPSK_vlg_tst
+R1
+!i10b 1
+!s100 1K1a_DII;376m[bf_b6f`0
+I41k5nj3<WjWL3i=iG7Xb?0
+R2
+R0
+w1551078317
+8E:/Communication/Quartus/Work/DPSK/simulation/modelsim/DPSK.vt
+FE:/Communication/Quartus/Work/DPSK/simulation/modelsim/DPSK.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 E:/Communication/Quartus/Work/DPSK/simulation/modelsim/DPSK.vt|
+!s90 -##implicit##push_minusfile_path##|E:/Communication/Quartus/Work/QPSK/simulation/modelsim/vlog.opt|-##implicit##pop_minusfile_path##|-reportprogress|300|-vlog01compat|-work|work|+incdir+E:/Communication/Quartus/Work/DPSK/simulation/modelsim|E:/Communication/Quartus/Work/DPSK/simulation/modelsim/DPSK.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/DPSK/simulation/modelsim
+n@d@p@s@k_vlg_tst

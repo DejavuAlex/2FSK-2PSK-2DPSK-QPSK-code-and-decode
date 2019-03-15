@@ -1,0 +1,111 @@
+# Reading E:/Communication/modelsim_ase/tcl/vsim/pref.tcl
+# do bpsk_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Modifying E:/Communication/modelsim_ase/win32aloem/modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/bpsk-ok {E:/Communication/Quartus/Work/bpsk-ok/bpsk.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:50:38 on Feb 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/bpsk-ok" E:/Communication/Quartus/Work/bpsk-ok/bpsk.v 
+# -- Compiling module bpsk
+# 
+# Top level modules:
+# 	bpsk
+# End time: 18:50:38 on Feb 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/bpsk-ok {E:/Communication/Quartus/Work/bpsk-ok/counter.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:50:38 on Feb 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/bpsk-ok" E:/Communication/Quartus/Work/bpsk-ok/counter.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 18:50:39 on Feb 28,2019, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/bpsk-ok {E:/Communication/Quartus/Work/bpsk-ok/PN_Seq.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:50:39 on Feb 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/bpsk-ok" E:/Communication/Quartus/Work/bpsk-ok/PN_Seq.v 
+# -- Compiling module PN_Seq
+# 
+# Top level modules:
+# 	PN_Seq
+# End time: 18:50:39 on Feb 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/bpsk-ok {E:/Communication/Quartus/Work/bpsk-ok/Controller.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:50:39 on Feb 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/bpsk-ok" E:/Communication/Quartus/Work/bpsk-ok/Controller.v 
+# -- Compiling module Controller
+# 
+# Top level modules:
+# 	Controller
+# End time: 18:50:39 on Feb 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/bpsk-ok {E:/Communication/Quartus/Work/bpsk-ok/LookUpTable.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:50:39 on Feb 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/bpsk-ok" E:/Communication/Quartus/Work/bpsk-ok/LookUpTable.v 
+# -- Compiling module LookUpTable
+# 
+# Top level modules:
+# 	LookUpTable
+# End time: 18:50:39 on Feb 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/bpsk-ok {E:/Communication/Quartus/Work/bpsk-ok/depsk.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:50:39 on Feb 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/bpsk-ok" E:/Communication/Quartus/Work/bpsk-ok/depsk.v 
+# -- Compiling module depsk
+# 
+# Top level modules:
+# 	depsk
+# End time: 18:50:39 on Feb 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/bpsk-ok/simulation/modelsim {E:/Communication/Quartus/Work/bpsk-ok/simulation/modelsim/bpsk.vt}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:50:39 on Feb 28,2019
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/Communication/Quartus/Work/bpsk-ok/simulation/modelsim" E:/Communication/Quartus/Work/bpsk-ok/simulation/modelsim/bpsk.vt 
+# -- Compiling module bpsk_vlg_tst
+# 
+# Top level modules:
+# 	bpsk_vlg_tst
+# End time: 18:50:39 on Feb 28,2019, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  bpsk_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" bpsk_vlg_tst 
+# Start time: 18:50:42 on Feb 28,2019
+# Loading work.bpsk_vlg_tst
+# Loading work.bpsk
+# Loading work.counter
+# Loading work.PN_Seq
+# Loading work.Controller
+# Loading work.LookUpTable
+# Loading work.depsk
+# ** Warning: (vsim-3015) E:/Communication/Quartus/Work/bpsk-ok/bpsk.v(30): [PCDPC] - Port size (7) does not match connection size (1) for port 'count'. The port definition is at: E:/Communication/Quartus/Work/bpsk-ok/counter.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /bpsk_vlg_tst/i1/COUNTER File: E:/Communication/Quartus/Work/bpsk-ok/counter.v
+# ** Warning: (vsim-3017) E:/Communication/Quartus/Work/bpsk-ok/bpsk.v(50): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /bpsk_vlg_tst/i1/LOOKUPTABLE File: E:/Communication/Quartus/Work/bpsk-ok/LookUpTable.v
+# ** Warning: (vsim-3017) E:/Communication/Quartus/Work/bpsk-ok/bpsk.v(58): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /bpsk_vlg_tst/i1/depsk File: E:/Communication/Quartus/Work/bpsk-ok/depsk.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : E:/Communication/Quartus/Work/bpsk-ok/simulation/modelsim/bpsk.vt(77)
+#    Time: 1 ms  Iteration: 0  Instance: /bpsk_vlg_tst
+# Break in Module bpsk_vlg_tst at E:/Communication/Quartus/Work/bpsk-ok/simulation/modelsim/bpsk.vt line 77
+# End time: 18:58:33 on Feb 28,2019, Elapsed time: 0:07:51
+# Errors: 0, Warnings: 3

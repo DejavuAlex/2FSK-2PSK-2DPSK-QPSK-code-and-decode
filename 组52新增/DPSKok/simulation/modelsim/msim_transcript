@@ -1,0 +1,115 @@
+# Reading D:/Quartus15/modelsim_ase/tcl/vsim/pref.tcl
+# do DPSK_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying D:/Quartus15/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied D:/Quartus15/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+E:/DPSK {E:/DPSK/dpsk_tz.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 13:16:52 on Mar 02,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/DPSK" E:/DPSK/dpsk_tz.v 
+# -- Compiling module dpsk_tz
+# 
+# Top level modules:
+# 	dpsk_tz
+# End time: 13:16:53 on Mar 02,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/DPSK {E:/DPSK/adder#.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 13:16:53 on Mar 02,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/DPSK" E:/DPSK/adder#.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 13:16:53 on Mar 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/DPSK {E:/DPSK/dpsk_jt.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 13:16:53 on Mar 02,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/DPSK" E:/DPSK/dpsk_jt.v 
+# -- Compiling module dpsk_jt
+# 
+# Top level modules:
+# 	dpsk_jt
+# End time: 13:16:53 on Mar 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/DPSK {E:/DPSK/dpsk.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 13:16:53 on Mar 02,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/DPSK" E:/DPSK/dpsk.v 
+# -- Compiling module DPSK
+# 
+# Top level modules:
+# 	DPSK
+# End time: 13:16:53 on Mar 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/DPSK {E:/DPSK/pll.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 13:16:53 on Mar 02,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/DPSK" E:/DPSK/pll.v 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 13:16:53 on Mar 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/DPSK/db {E:/DPSK/db/pll_altpll.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 13:16:54 on Mar 02,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/DPSK/db" E:/DPSK/db/pll_altpll.v 
+# -- Compiling module pll_altpll
+# 
+# Top level modules:
+# 	pll_altpll
+# End time: 13:16:54 on Mar 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/DPSK {E:/DPSK/dds.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 13:16:54 on Mar 02,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/DPSK" E:/DPSK/dds.v 
+# -- Compiling module dds
+# 
+# Top level modules:
+# 	dds
+# End time: 13:16:54 on Mar 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/DPSK {E:/DPSK/rom_sine0.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 13:16:54 on Mar 02,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/DPSK" E:/DPSK/rom_sine0.v 
+# -- Compiling module rom_sine0
+# 
+# Top level modules:
+# 	rom_sine0
+# End time: 13:16:54 on Mar 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/DPSK {E:/DPSK/qseq.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 13:16:54 on Mar 02,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/DPSK" E:/DPSK/qseq.v 
+# -- Compiling module qseq
+# 
+# Top level modules:
+# 	qseq
+# End time: 13:16:54 on Mar 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+E:/DPSK {E:/DPSK/mac.v}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 13:16:55 on Mar 02,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+E:/DPSK" E:/DPSK/mac.v 
+# -- Compiling module mac
+# 
+# Top level modules:
+# 	mac
+# End time: 13:16:55 on Mar 02,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 

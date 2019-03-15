@@ -1,0 +1,100 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 200 192)
+	(text "bpsk" (rect 5 0 23 12)(font "Arial" ))
+	(text "inst" (rect 8 160 20 172)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 10 12)(font "Arial" ))
+		(text "clk" (rect 21 27 31 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "reset_n" (rect 0 0 30 12)(font "Arial" ))
+		(text "reset_n" (rect 21 43 51 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 184 32)
+		(output)
+		(text "clk_DA" (rect 0 0 31 12)(font "Arial" ))
+		(text "clk_DA" (rect 132 27 163 39)(font "Arial" ))
+		(line (pt 184 32)(pt 168 32)(line_width 1))
+	)
+	(port
+		(pt 184 48)
+		(output)
+		(text "blank_DA_n" (rect 0 0 51 12)(font "Arial" ))
+		(text "blank_DA_n" (rect 112 43 163 55)(font "Arial" ))
+		(line (pt 184 48)(pt 168 48)(line_width 1))
+	)
+	(port
+		(pt 184 64)
+		(output)
+		(text "sync_DA_n" (rect 0 0 51 12)(font "Arial" ))
+		(text "sync_DA_n" (rect 112 59 163 71)(font "Arial" ))
+		(line (pt 184 64)(pt 168 64)(line_width 1))
+	)
+	(port
+		(pt 184 80)
+		(output)
+		(text "dataout[7..0]" (rect 0 0 48 12)(font "Arial" ))
+		(text "dataout[7..0]" (rect 115 75 163 87)(font "Arial" ))
+		(line (pt 184 80)(pt 168 80)(line_width 3))
+	)
+	(port
+		(pt 184 96)
+		(output)
+		(text "dm_out[7..0]" (rect 0 0 50 12)(font "Arial" ))
+		(text "dm_out[7..0]" (rect 113 91 163 103)(font "Arial" ))
+		(line (pt 184 96)(pt 168 96)(line_width 3))
+	)
+	(port
+		(pt 184 112)
+		(output)
+		(text "dataoutm" (rect 0 0 36 12)(font "Arial" ))
+		(text "dataoutm" (rect 127 107 163 119)(font "Arial" ))
+		(line (pt 184 112)(pt 168 112)(line_width 1))
+	)
+	(port
+		(pt 184 128)
+		(output)
+		(text "clk1" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk1" (rect 149 123 163 135)(font "Arial" ))
+		(line (pt 184 128)(pt 168 128)(line_width 1))
+	)
+	(port
+		(pt 184 144)
+		(output)
+		(text "address[6..0]" (rect 0 0 51 12)(font "Arial" ))
+		(text "address[6..0]" (rect 112 139 163 151)(font "Arial" ))
+		(line (pt 184 144)(pt 168 144)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 168 160)(line_width 1))
+	)
+)

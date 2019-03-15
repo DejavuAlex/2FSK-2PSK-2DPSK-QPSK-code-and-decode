@@ -1,0 +1,28 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/QPSK {E:/Communication/Quartus/Work/QPSK/QPSK.v}
+vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/QPSK {E:/Communication/Quartus/Work/QPSK/Verilog7.v}
+vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/QPSK {E:/Communication/Quartus/Work/QPSK/Verilog6.v}
+vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/QPSK {E:/Communication/Quartus/Work/QPSK/Verilog5.v}
+vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/QPSK {E:/Communication/Quartus/Work/QPSK/Verilog4.v}
+vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/QPSK {E:/Communication/Quartus/Work/QPSK/Verilog3.v}
+vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/QPSK {E:/Communication/Quartus/Work/QPSK/Verilog2.v}
+vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/QPSK {E:/Communication/Quartus/Work/QPSK/test1.v}
+vlib NCO
+vmap NCO NCO
+vlog -vlog01compat -work NCO +incdir+E:/Communication/Quartus/Work/QPSK/NCO/synthesis {E:/Communication/Quartus/Work/QPSK/NCO/synthesis/NCO.v}
+vlog -vlog01compat -work NCO +incdir+E:/Communication/Quartus/Work/QPSK/NCO/synthesis/submodules {E:/Communication/Quartus/Work/QPSK/NCO/synthesis/submodules/NCO_nco_ii_0.v}
+
+vlog -vlog01compat -work work +incdir+E:/Communication/Quartus/Work/QPSK/simulation/modelsim {E:/Communication/Quartus/Work/QPSK/simulation/modelsim/QPSK.vt}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -L NCO -voptargs="+acc"  QPSK_vlg_tst
+
+add wave *
+view structure
+view signals
+run -all

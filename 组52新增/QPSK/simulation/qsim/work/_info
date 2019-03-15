@@ -1,0 +1,262 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/Communication/Quartus/Work/QPSK/simulation/qsim
+vBlock2
+Z1 !s110 1550722810
+!i10b 1
+!s100 h^9kGUSJkgRNPg86lAV:M0
+I_me:3blm?TEMCV?f_ReP42
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1550722808
+Z3 8QPSK.vo
+Z4 FQPSK.vo
+Z5 L0 32
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1550722809.000000
+Z7 !s107 QPSK.vo|
+Z8 !s90 -work|work|QPSK.vo|
+!i113 1
+Z9 o-work work
+n@block2
+vBlock2_vlg_vec_tst
+R1
+!i10b 1
+!s100 _291M[eIGlSX_PZE[ganz0
+I?AHVX8BHi;<JJDZbVTJmD2
+R2
+R0
+w1550722806
+8Waveform4.vwf.vt
+FWaveform4.vwf.vt
+Z10 L0 30
+R6
+r1
+!s85 0
+31
+!s108 1550722810.000000
+!s107 Waveform4.vwf.vt|
+!s90 -work|work|Waveform4.vwf.vt|
+!i113 1
+R9
+n@block2_vlg_vec_tst
+vBlock3
+!s110 1550719447
+!i10b 1
+!s100 TH;fcJ83=ATEEVRf2OaCS3
+I10n^g6Y<U<DOm3?V5PlHL3
+R2
+R0
+w1550719445
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z11 !s108 1550719447.000000
+R7
+R8
+!i113 1
+R9
+n@block3
+vBlock3_vlg_vec_tst
+!s110 1550719448
+!i10b 1
+!s100 NM^k6C@llZoL^[_7WL7GE0
+I0^A_z_`YZ]hUZz@HFIdQE1
+R2
+R0
+w1550719444
+Z12 8Waveform.vwf.vt
+Z13 FWaveform.vwf.vt
+R10
+R6
+r1
+!s85 0
+31
+R11
+Z14 !s107 Waveform.vwf.vt|
+Z15 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R9
+n@block3_vlg_vec_tst
+vBlock4
+Z16 !s110 1550723423
+!i10b 1
+!s100 RPSz1CVAn=nY?CUO`n4La3
+IR1;H3X^z]Qo`g1haA[6iB2
+R2
+R0
+w1550723421
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z17 !s108 1550723423.000000
+R7
+R8
+!i113 1
+R9
+n@block4
+vBlock4_vlg_vec_tst
+R16
+!i10b 1
+!s100 L8NETI^lJD;Yk53K_1Z?=1
+IGlkg0H4lS3VlZ:m]Ofn;41
+R2
+R0
+w1550723419
+8Waveform5.vwf.vt
+FWaveform5.vwf.vt
+R10
+R6
+r1
+!s85 0
+31
+R17
+!s107 Waveform5.vwf.vt|
+!s90 -work|work|Waveform5.vwf.vt|
+!i113 1
+R9
+n@block4_vlg_vec_tst
+vBlock7
+Z18 !s110 1550890705
+!i10b 1
+!s100 <dDfMbQ8Oe1:^ZRS]l2C03
+I2MZXF0[7V1X0T6b3c@^W41
+R2
+R0
+w1550890703
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z19 !s108 1550890705.000000
+R7
+R8
+!i113 1
+R9
+n@block7
+vBlock7_vlg_vec_tst
+R18
+!i10b 1
+!s100 EYPFLj]_FzSn?gW;lK9d73
+IgGb=JzEh=mCaVoZZ:J_7>3
+R2
+R0
+w1550890702
+Z20 8QPSKcodedecode.vwf.vt
+Z21 FQPSKcodedecode.vwf.vt
+R10
+R6
+r1
+!s85 0
+31
+R19
+!s107 QPSKcodedecode.vwf.vt|
+Z22 !s90 -work|work|QPSKcodedecode.vwf.vt|
+!i113 1
+R9
+n@block7_vlg_vec_tst
+vQPSK
+Z23 !s110 1550730676
+!i10b 1
+!s100 @Xk23T5Mnn7hj`D7Hd`:F2
+IbX8IJY<L=ia=0nJ?6A0L22
+R2
+R0
+w1550730674
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z24 !s108 1550730676.000000
+R7
+R8
+!i113 1
+R9
+n@q@p@s@k
+vQPSK_vlg_vec_tst
+R23
+!i10b 1
+!s100 TXE3VzGPOa4h=R6zYl8]Q2
+I6jEEG1^HzCMU5?Ro>8VMi1
+R2
+R0
+w1550730672
+R12
+R13
+R10
+R6
+r1
+!s85 0
+31
+R24
+R14
+R15
+!i113 1
+R9
+n@q@p@s@k_vlg_vec_tst
+vQPSKcodedecode
+Z25 !s110 1550895867
+!i10b 1
+!s100 ]A321nEO0_m?6K_cUdaBk0
+IIYhXe?k]JJl3ZaaPfoYEo1
+R2
+R0
+w1550895861
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+!s108 1550895863.000000
+R7
+R8
+!i113 1
+R9
+n@q@p@s@kcodedecode
+vQPSKcodedecode_vlg_vec_tst
+R25
+!i10b 1
+!s100 goOU93XH6Q23BX7fY:S0L3
+IRC0DVn;<[blMU[AUD65dm1
+R2
+R0
+w1550895858
+R20
+R21
+R10
+R6
+r1
+!s85 0
+31
+!s108 1550895867.000000
+!s107 QPSKcodedecode.vwf.vt|
+R22
+!i113 1
+R9
+n@q@p@s@kcodedecode_vlg_vec_tst

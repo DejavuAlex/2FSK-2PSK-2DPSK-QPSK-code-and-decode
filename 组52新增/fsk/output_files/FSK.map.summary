@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Sat Mar 02 10:41:18 2019
+Quartus Prime Version : 16.0.0 Build 211 04/27/2016 SJ Standard Edition
+Revision Name : FSK
+Top-level Entity Name : FSK2
+Family : MAX 10
+Total logic elements : 1,360
+    Total combinational functions : 840
+    Dedicated logic registers : 1,002
+Total registers : 1002
+Total pins : 42
+Total virtual pins : 0
+Total memory bits : 1,118,208
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0
